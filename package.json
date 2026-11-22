@@ -1,0 +1,13 @@
+{
+  "name": "epg-generator",
+  "version": "1.0.0",
+  "description": "Generate DishTV, JioTV, and TataPlay XMLTV EPG files",
+  "main": "generate_epg.js",
+  "scripts": {
+    "start": "node generate_epg.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13"
+  }
+}
