@@ -57,24 +57,6 @@ function parseDishTime(str) {
   return d.isValid() ? d.valueOf() : null;
 }
 
-function parseXmltvDate(raw14) {
-  const y = raw14.slice(0, 4);
-  const m = raw14.slice(4, 6);
-  const d = raw14.slice(6, 8);
-  const H = raw14.slice(8, 10);
-  const M = raw14.slice(10, 12);
-  const S = raw14.slice(12, 14);
-  return dayjs.tz(`${y}-${m}-${d} ${H}:${M}:${S}`, 'YYYY-MM-DD HH:mm:ss', TZ).valueOf();
-}
-
-function writeXmlAndGz(basePath, xmlString) {
-  fs.writeFileSync(`${basePath}.xml`, xmlString, 'utf-8');
-  fs.writeFileSync(`${basePath}.xml.gz`, zlib.gzipSync(xmlString));
-}
-
-// ==========================================
-// JSON मधून DishTV आणि JioTV चॅनेल्स वाचणे
-// ==========================================
 function loadProviderChannelsFromJson(targetProvider) {
   const candidateFiles = ['./tp_channels.json', './channels.json'];
   let filePath = null;
@@ -87,7 +69,7 @@ function loadProviderChannelsFromJson(targetProvider) {
   }
 
   if (!filePath) {
-    console.log(`[JSON] tp_channels.json किंवा channels.json सापडली नाही.`);
+    console.log('[JSON] tp_channels.json किंवा channels.json सापडली नाही.');
     return [];
   }
 
@@ -105,54 +87,8 @@ function loadProviderChannelsFromJson(targetProvider) {
     .filter((ch) => ch.id);
 }
 
-function buildXmltv(channelsMap, minStartMs, maxEndMs, generatorName = 'EPG') {
-  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  xml += `<tv generator-info-name="${escapeXML(generatorName)}">\n`;
-
-  const channels = Object.values(channelsMap);
-
-  for (const ch of channels) {
-    xml += `  <channel id="${escapeXML(ch.id)}">\n`;
-    xml += `    <display-name>${escapeXML(ch.name)}</display-name>\n`;
-    if (ch.logo) {
-      xml += `    <icon src="${escapeXML(ch.logo)}" />\n`;
-    }
-    xml += `  </channel>\n`;
-  }
-
-  for (const ch of channels) {
-    const seen = new Set();
-    for (const p of ch.programmes) {
-      if (p.stopMs > minStartMs && p.startMs < maxEndMs) {
-        const key = `${p.startMs}_${p.stopMs}_${p.title}`;
-        if (seen.has(key)) continue;
-        seen.add(key);
-
-        const startStr = dayjs(p.startMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
-        const stopStr = dayjs(p.stopMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
-
-        xml += `  <programme start="${startStr}" stop="${stopStr}" channel="${escapeXML(ch.id)}">\n`;
-        xml += `    <title lang="en">${escapeXML(p.title)}</title>\n`;
-        if (p.desc) {
-          xml += `    <desc lang="en">${escapeXML(p.desc)}</desc>\n`;
-        }
-        if (p.category) {
-          xml += `    <category lang="en">${escapeXML(p.category)}</category>\n`;
-        }
-        if (p.icon) {
-          xml += `    <icon src="${escapeXML(p.icon)}" />\n`;
-        }
-        xml += `  </programme>\n`;
-      }
-    }
-  }
-
-  xml += '</tv>';
-  return xml;
-}
-
 // ==========================================
-// STEP 1: DISHTV (JSON मधून + Past 8d + Today + Future 1d)
+// STEP 1: DISHTV (JSON मधून | Past 8d + Today + Future 1d)
 // ==========================================
 async function getDishToken() {
   try {
@@ -169,16 +105,13 @@ async function getDishToken() {
 }
 
 async function fetchDishTVData() {
-  console.log('\n=== STEP 1/3: DishTV (From JSON | Past 8d + Today + Future 1d) ===');
+  console.log('\n=== STEP 1/3: DishTV (Past 8d + Today + Future 1d) ===');
   const dishJsonChannels = loadProviderChannelsFromJson('DishTV');
-  console.log(`[DishTV] JSON मध्ये मिळालेले चॅनेल्स: ${dishJsonChannels.length}`);
+  console.log(`[DishTV] JSON चॅनेल्स: ${dishJsonChannels.length}`);
 
   const channelsMap = {};
-  if (!dishJsonChannels.length) {
-    return channelsMap;
-  }
+  if (!dishJsonChannels.length) return channelsMap;
 
-  // JSON मधील IDs वरून Map तयार करणे
   const allowedDishMap = new Map();
   for (const ch of dishJsonChannels) {
     allowedDishMap.set(ch.id, ch);
@@ -230,7 +163,7 @@ async function fetchDishTVData() {
         for (const ch of list) {
           const rawId = String(ch.channelid);
           const jsonEntry = allowedDishMap.get(rawId);
-          if (!jsonEntry) continue; // फक्त JSON मधील DishTV चॅनेल्स घ्यायचे
+          if (!jsonEntry) continue;
 
           const xmlId = `dtv_${rawId}`;
           if (!channelsMap[xmlId].name) {
@@ -266,17 +199,15 @@ async function fetchDishTVData() {
 }
 
 // ==========================================
-// STEP 2: JIOTV (JSON मधून + Past 8d + Today + Future 1d)
+// STEP 2: JIOTV (JSON मधून | Past 8d + Today + Future 1d)
 // ==========================================
 async function fetchJioTVData() {
-  console.log('\n=== STEP 2/3: JioTV (From JSON | Past 8d + Today + Future 1d) ===');
+  console.log('\n=== STEP 2/3: JioTV (Past 8d + Today + Future 1d) ===');
   const jioJsonChannels = loadProviderChannelsFromJson('JioTV');
-  console.log(`[JioTV] JSON मध्ये मिळालेले चॅनेल्स: ${jioJsonChannels.length}`);
+  console.log(`[JioTV] JSON चॅनेल्स: ${jioJsonChannels.length}`);
 
   const channelsMap = {};
-  if (!jioJsonChannels.length) {
-    return channelsMap;
-  }
+  if (!jioJsonChannels.length) return channelsMap;
 
   const offsets = [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1];
   const chunk = 20;
@@ -333,7 +264,7 @@ async function fetchJioTVData() {
 // STEP 3: TATAPAY (JSON शिवाय थेट API | Past 1d + Today + Future 1d)
 // ==========================================
 async function fetchTataPlayData() {
-  console.log('\n=== STEP 3/3: TataPlay (Direct API | Past 1d + Today + Future 1d) ===');
+  console.log('\n=== STEP 3/3: TataPlay (Past 1d + Today + Future 1d) ===');
   const today = dayjs().tz(TZ);
   const datesToFetch = [
     today.subtract(1, 'day').format('DD-MM-YYYY'),
@@ -411,111 +342,86 @@ async function fetchTataPlayData() {
   return channelsMap;
 }
 
-// ==========================================
-// FILTER .xml.gz -> Remove Past 8d, Keep Today + Future 1d
-// ==========================================
-function trimPast8DaysFromGz(sourceGzPath, targetBasePath) {
-  const xmlText = zlib.gunzipSync(fs.readFileSync(sourceGzPath)).toString('utf-8');
-  const todayStartMs = dayjs().tz(TZ).startOf('day').valueOf();
-  const tomorrowEndMs = dayjs().tz(TZ).add(1, 'day').endOf('day').valueOf();
+function appendProgrammesXml(channelsMap, minStartMs, maxEndMs) {
+  let chunkXml = '';
+  for (const ch of Object.values(channelsMap)) {
+    const seen = new Set();
+    for (const p of ch.programmes) {
+      if (p.stopMs > minStartMs && p.startMs < maxEndMs) {
+        const key = `${p.startMs}_${p.stopMs}_${p.title}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
 
-  const filteredXml = xmlText.replace(
-    /<programme\b([^>]*)>([\s\S]*?)<\/programme>/g,
-    (fullMatch, attrs) => {
-      const startMatch = attrs.match(/start="(\d{14})\s*([+-]\d{4})?"/);
-      const stopMatch = attrs.match(/stop="(\d{14})\s*([+-]\d{4})?"/);
-      if (!startMatch || !stopMatch) return '';
+        const startStr = dayjs(p.startMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
+        const stopStr = dayjs(p.stopMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
 
-      const pStart = parseXmltvDate(startMatch[1]);
-      const pStop = parseXmltvDate(stopMatch[1]);
-
-      if (pStop > todayStartMs && pStart < tomorrowEndMs) {
-        return fullMatch;
+        chunkXml += `  <programme start="${startStr}" stop="${stopStr}" channel="${escapeXML(ch.id)}">\n`;
+        chunkXml += `    <title lang="en">${escapeXML(p.title)}</title>\n`;
+        if (p.desc) {
+          chunkXml += `    <desc lang="en">${escapeXML(p.desc)}</desc>\n`;
+        }
+        if (p.category) {
+          chunkXml += `    <category lang="en">${escapeXML(p.category)}</category>\n`;
+        }
+        if (p.icon) {
+          chunkXml += `    <icon src="${escapeXML(p.icon)}" />\n`;
+        }
+        chunkXml += `  </programme>\n`;
       }
-      return '';
     }
-  ).replace(/\n\s*\n/g, '\n');
-
-  writeXmlAndGz(targetBasePath, filteredXml);
-}
-
-// ==========================================
-// FINAL MERGE OF ALL THREE .xml.gz FILES
-// (DishTV+JioTV [-8..+1] + TataPlay [-1..+1])
-// ==========================================
-function mergeAllThreeGz(jioDishGzPath, tataGzPath, finalBasePath) {
-  const jioDishXml = zlib.gunzipSync(fs.readFileSync(jioDishGzPath)).toString('utf-8');
-  const tataXml = zlib.gunzipSync(fs.readFileSync(tataGzPath)).toString('utf-8');
-
-  const extractBlocks = (xmlStr, tagName) => {
-    const regex = new RegExp(`<${tagName}\\b[^>]*>[\\s\\S]*?<\\/${tagName}>`, 'g');
-    return xmlStr.match(regex) || [];
-  };
-
-  const allChannels = [
-    ...extractBlocks(jioDishXml, 'channel'),
-    ...extractBlocks(tataXml, 'channel')
-  ];
-
-  const allProgrammes = [
-    ...extractBlocks(jioDishXml, 'programme'),
-    ...extractBlocks(tataXml, 'programme')
-  ];
-
-  const finalXml = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    '<tv generator-info-name="Final-All-EPG">',
-    ...allChannels.map((c) => `  ${c}`),
-    ...allProgrammes.map((p) => `  ${p}`),
-    '</tv>'
-  ].join('\n');
-
-  writeXmlAndGz(finalBasePath, finalXml);
+  }
+  return chunkXml;
 }
 
 async function main() {
-  fs.mkdirSync('./epg', { recursive: true });
   const now = dayjs().tz(TZ);
-
   const past8StartMs = now.subtract(8, 'day').startOf('day').valueOf();
   const past1StartMs = now.subtract(1, 'day').startOf('day').valueOf();
   const future1EndMs = now.add(1, 'day').endOf('day').valueOf();
 
-  // १. आधी DishTV (JSON मधून | Past 8d + Today + Future 1d)
+  // १. आधी DishTV (Past 8d + Today + Future 1d)
   const dishMap = await fetchDishTVData();
-  writeXmlAndGz('./epg/dishtv', buildXmltv(dishMap, past8StartMs, future1EndMs, 'DishTV-8d-0-1d'));
 
-  // २. नंतर JioTV (JSON मधून | Past 8d + Today + Future 1d) आणि DishTV + JioTV एकत्र
+  // २. नंतर JioTV (Past 8d + Today + Future 1d)
   const jioMap = await fetchJioTVData();
-  writeXmlAndGz('./epg/jiotv', buildXmltv(jioMap, past8StartMs, future1EndMs, 'JioTV-8d-0-1d'));
 
-  const jioDishMergedMap = { ...dishMap };
-  for (const [id, ch] of Object.entries(jioMap)) {
-    if (!jioDishMergedMap[id]) {
-      jioDishMergedMap[id] = { ...ch, programmes: [...ch.programmes] };
-    } else {
-      jioDishMergedMap[id].programmes.push(...ch.programmes);
-    }
-  }
-  writeXmlAndGz('./epg/jio_dishtv', buildXmltv(jioDishMergedMap, past8StartMs, future1EndMs, 'JioTV-DishTV-8d-0-1d'));
-
-  // ३. तयार झालेल्या jio_dishtv.xml.gz मधून Past 8 days काढून फक्त Today + Future 1 day
-  trimPast8DaysFromGz('./epg/jio_dishtv.xml.gz', './epg/jio_dishtv_today_tomorrow');
-
-  // ४. नंतर TataPlay (JSON शिवाय थेट API | Past 1d + Today + Future 1d)
+  // ३. नंतर TataPlay (Past 1d + Today + Future 1d)
   const tataMap = await fetchTataPlayData();
-  writeXmlAndGz('./epg/tataplay', buildXmltv(tataMap, past1StartMs, future1EndMs, 'TataPlay-1d-0-1d'));
 
-  // ५. शेवटी तिघांचा एकच xml.gz (DishTV+JioTV [-8..+1] + TataPlay [-1..+1])
-  mergeAllThreeGz('./epg/jio_dishtv.xml.gz', './epg/tataplay.xml.gz', './epg/final_combined');
+  // सर्व चॅनेल्स एकत्र करणे
+  const allChannels = [
+    ...Object.values(dishMap),
+    ...Object.values(jioMap),
+    ...Object.values(tataMap)
+  ];
 
-  console.log('\n🎉 सर्व फाईल्स तयार झाल्या:');
-  console.log('1. ./epg/dishtv.xml.gz');
-  console.log('2. ./epg/jiotv.xml.gz');
-  console.log('3. ./epg/jio_dishtv.xml.gz (DishTV+JioTV: Past 8d + Today + Future 1d)');
-  console.log('4. ./epg/jio_dishtv_today_tomorrow.xml.gz (Past 8d काढून फक्त Today + Future 1d)');
-  console.log('5. ./epg/tataplay.xml.gz (TataPlay: Past 1d + Today + Future 1d)');
-  console.log('6. ./epg/final_combined.xml.gz (तिन्ही एकत्र)');
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+  xml += '<tv generator-info-name="Combine-EPG">\n';
+
+  for (const ch of allChannels) {
+    xml += `  <channel id="${escapeXML(ch.id)}">\n`;
+    xml += `    <display-name>${escapeXML(ch.name)}</display-name>\n`;
+    if (ch.logo) {
+      xml += `    <icon src="${escapeXML(ch.logo)}" />\n`;
+    }
+    xml += `  </channel>\n`;
+  }
+
+  // DishTV + JioTV: Past 8d + Today + Future 1d
+  xml += appendProgrammesXml(dishMap, past8StartMs, future1EndMs);
+  xml += appendProgrammesXml(jioMap, past8StartMs, future1EndMs);
+
+  // TataPlay: Past 1d + Today + Future 1d
+  xml += appendProgrammesXml(tataMap, past1StartMs, future1EndMs);
+
+  xml += '</tv>';
+
+  // epg फोल्डर स्वच्छ करून फक्त combine.xml.gz तयार करणे
+  fs.rmSync('./epg', { recursive: true, force: true });
+  fs.mkdirSync('./epg', { recursive: true });
+  fs.writeFileSync('./epg/combine.xml.gz', zlib.gzipSync(xml));
+
+  console.log('\n✅ फक्त ./epg/combine.xml.gz तयार झाली आहे!');
 }
 
 main().catch((err) => {
