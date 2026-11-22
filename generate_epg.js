@@ -9,6 +9,9 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 const TZ = 'Asia/Kolkata';
+const COMBINE_GZ_PATH = './epg/combine.xml.gz';
+const SAMSUNG_URL = 'https://i.mjh.nz/SamsungTVPlus/in.xml.gz';
+
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 function escapeXML(str) {
@@ -57,6 +60,20 @@ function parseDishTime(str) {
   return d.isValid() ? d.valueOf() : null;
 }
 
+function parseXmltvDate(raw14, tzOffsetStr = '') {
+  const y = raw14.slice(0, 4);
+  const m = raw14.slice(4, 6);
+  const d = raw14.slice(6, 8);
+  const H = raw14.slice(8, 10);
+  const M = raw14.slice(10, 12);
+  const S = raw14.slice(12, 14);
+  const isoLike = `${y}-${m}-${d}T${H}:${M}:${S}${tzOffsetStr || '+05:30'}`;
+  const parsed = dayjs(isoLike);
+  return parsed.isValid()
+    ? parsed.valueOf()
+    : dayjs.tz(`${y}-${m}-${d} ${H}:${M}:${S}`, 'YYYY-MM-DD HH:mm:ss', TZ).valueOf();
+}
+
 function loadProviderChannelsFromJson(targetProvider) {
   const candidateFiles = ['./tp_channels.json', './channels.json'];
   let filePath = null;
@@ -68,27 +85,101 @@ function loadProviderChannelsFromJson(targetProvider) {
     }
   }
 
-  if (!filePath) {
-    console.log('[JSON] tp_channels.json किंवा channels.json सापडली नाही.');
-    return [];
-  }
+  if (!filePath) return [];
 
   const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   const list = Array.isArray(raw) ? raw : (raw.channels || []);
-  const normTarget = targetProvider.toLowerCase();
+  const normTarget = String(targetProvider).trim().toLowerCase();
 
   return list
     .filter((item) => item && String(item.provider || '').trim().toLowerCase() === normTarget)
     .map((item) => ({
-      id: String(item.id).trim(),
-      name: String(item.name || '').trim(),
+      id: String(item.id ?? item.channel_id ?? '').trim(),
+      name: String(item.name ?? item.channel_name ?? '').trim(),
       logo: item.logo || ''
     }))
     .filter((ch) => ch.id);
 }
 
 // ==========================================
-// STEP 1: DISHTV (JSON मधून | Past 8d + Today + Future 1d)
+// जुन्या combine.xml.gz मधून चॅनेल्स व प्रोग्राम्स वाचणे
+// ==========================================
+function loadExistingCombineData() {
+  const channelsMap = {};
+  if (!fs.existsSync(COMBINE_GZ_PATH)) {
+    console.log('[Cache] जुनी combine.xml.gz सापडली नाही (पहिला रन).');
+    return channelsMap;
+  }
+
+  try {
+    const xmlText = zlib.gunzipSync(fs.readFileSync(COMBINE_GZ_PATH)).toString('utf-8');
+    const channelMatches = xmlText.match(/<channel\b[^>]*>[\s\S]*?<\/channel>/g) || [];
+    for (const chBlock of channelMatches) {
+      const idMatch = chBlock.match(/\bid="([^"]+)"/);
+      if (!idMatch) continue;
+      const id = idMatch[1];
+      const nameMatch = chBlock.match(/<display-name[^>]*>([\s\S]*?)<\/display-name>/);
+      const iconMatch = chBlock.match(/<icon\b[^>]*\bsrc="([^"]+)"/);
+
+      channelsMap[id] = {
+        id,
+        name: nameMatch ? nameMatch[1].trim() : id,
+        logo: iconMatch ? iconMatch[1].trim() : '',
+        source: id.startsWith('dtv_') ? 'dishtv' : (id.startsWith('tp_') ? 'tataplay' : 'jiotv'),
+        programmes: []
+      };
+    }
+
+    const progMatches = xmlText.match(/<programme\b([^>]*)>([\s\S]*?)<\/programme>/g) || [];
+    for (const pBlock of progMatches) {
+      const attrsMatch = pBlock.match(/^<programme\b([^>]*)>/);
+      if (!attrsMatch) continue;
+      const attrs = attrsMatch[1];
+
+      const chMatch = attrs.match(/\bchannel="([^"]+)"/);
+      const startMatch = attrs.match(/\bstart="(\d{14})\s*([+-]\d{4})?"/);
+      const stopMatch = attrs.match(/\bstop="(\d{14})\s*([+-]\d{4})?"/);
+      if (!chMatch || !startMatch || !stopMatch) continue;
+
+      const chId = chMatch[1];
+      if (!channelsMap[chId]) {
+        channelsMap[chId] = {
+          id: chId,
+          name: chId,
+          logo: '',
+          source: chId.startsWith('dtv_') ? 'dishtv' : (chId.startsWith('tp_') ? 'tataplay' : 'jiotv'),
+          programmes: []
+        };
+      }
+
+      const startMs = parseXmltvDate(startMatch[1], startMatch[2] || '+05:30');
+      const stopMs = parseXmltvDate(stopMatch[1], stopMatch[2] || '+05:30');
+
+      const titleMatch = pBlock.match(/<title[^>]*>([\s\S]*?)<\/title>/);
+      const descMatch = pBlock.match(/<desc[^>]*>([\s\S]*?)<\/desc>/);
+      const catMatch = pBlock.match(/<category[^>]*>([\s\S]*?)<\/category>/);
+      const iconMatch = pBlock.match(/<icon\b[^>]*\bsrc="([^"]+)"/);
+
+      channelsMap[chId].programmes.push({
+        startMs,
+        stopMs,
+        title: titleMatch ? titleMatch[1].trim() : '',
+        desc: descMatch ? descMatch[1].trim() : '',
+        category: catMatch ? catMatch[1].trim() : '',
+        icon: iconMatch ? iconMatch[1].trim() : ''
+      });
+    }
+
+    console.log(`[Cache] जुन्या combine.xml.gz मधून ${Object.keys(channelsMap).length} चॅनेल्स लोड झाले.`);
+  } catch (err) {
+    console.error('[Cache] जुनी combine.xml.gz वाचताना एरर:', err.message);
+  }
+
+  return channelsMap;
+}
+
+// ==========================================
+// DISHTV INCREMENTAL FETCH (फक्त Today + Future 1d)
 // ==========================================
 async function getDishToken() {
   try {
@@ -104,42 +195,47 @@ async function getDishToken() {
   }
 }
 
-async function fetchDishTVData() {
-  console.log('\n=== STEP 1/3: DishTV (Past 8d + Today + Future 1d) ===');
-  const dishJsonChannels = loadProviderChannelsFromJson('DishTV');
-  console.log(`[DishTV] JSON चॅनेल्स: ${dishJsonChannels.length}`);
+async function updateDishTVIncremental(channelsMap) {
+  console.log('\n=== STEP 1/4: DishTV (Delete >8d old, Fetch Today + Future 1d) ===');
+  const today = dayjs().tz(TZ);
+  const cutoff8dMs = today.subtract(8, 'day').startOf('day').valueOf();
 
-  const channelsMap = {};
-  if (!dishJsonChannels.length) return channelsMap;
+  for (const ch of Object.values(channelsMap)) {
+    if (ch.source === 'dishtv') {
+      ch.programmes = ch.programmes.filter((p) => p.stopMs > cutoff8dMs);
+    }
+  }
+
+  const dishJsonChannels = loadProviderChannelsFromJson('DishTV');
+  if (!dishJsonChannels.length) return;
 
   const allowedDishMap = new Map();
   for (const ch of dishJsonChannels) {
     allowedDishMap.set(ch.id, ch);
     const xmlId = `dtv_${ch.id}`;
-    channelsMap[xmlId] = {
-      id: xmlId,
-      name: ch.name || `DishTV ${ch.id}`,
-      logo: ch.logo || '',
-      programmes: []
-    };
+    if (!channelsMap[xmlId]) {
+      channelsMap[xmlId] = {
+        id: xmlId,
+        name: ch.name || `DishTV ${ch.id}`,
+        logo: ch.logo || '',
+        source: 'dishtv',
+        programmes: []
+      };
+    }
   }
 
   const token = await getDishToken();
-  if (!token) {
-    console.log('[DishTV] Token मिळाला नाही, DishTV स्किप करत आहे.');
-    return channelsMap;
-  }
+  if (!token) return;
 
-  const today = dayjs().tz(TZ);
-  const datesToFetch = [];
-  for (let i = -8; i <= 1; i++) {
-    datesToFetch.push(today.add(i, 'day').format('DD/MM/YYYY'));
-  }
+  const datesToFetch = [
+    today.format('DD/MM/YYYY'),
+    today.add(1, 'day').format('DD/MM/YYYY')
+  ];
 
   const totalPages = 107;
 
   for (const dateStr of datesToFetch) {
-    console.log(`[DishTV] Date: ${dateStr}`);
+    console.log(`[DishTV] Fetching Today/Future Date: ${dateStr}`);
     for (let page = 1; page <= totalPages; page++) {
       try {
         const bodyData = {
@@ -166,9 +262,7 @@ async function fetchDishTVData() {
           if (!jsonEntry) continue;
 
           const xmlId = `dtv_${rawId}`;
-          if (!channelsMap[xmlId].name) {
-            channelsMap[xmlId].name = jsonEntry.name || ch.channelname || '';
-          }
+          if (jsonEntry.name) channelsMap[xmlId].name = jsonEntry.name;
           if (!channelsMap[xmlId].logo && ch.channelimage) {
             channelsMap[xmlId].logo = ch.channelimage;
           }
@@ -193,23 +287,26 @@ async function fetchDishTVData() {
       }
     }
   }
-
-  console.log(`[DishTV] पूर्ण झाले. Channels: ${Object.keys(channelsMap).length}`);
-  return channelsMap;
 }
 
 // ==========================================
-// STEP 2: JIOTV (JSON मधून | Past 8d + Today + Future 1d)
+// JIOTV INCREMENTAL FETCH (फक्त Today + Future 1d)
 // ==========================================
-async function fetchJioTVData() {
-  console.log('\n=== STEP 2/3: JioTV (Past 8d + Today + Future 1d) ===');
+async function updateJioTVIncremental(channelsMap) {
+  console.log('\n=== STEP 2/4: JioTV (Delete >8d old, Fetch Today + Future 1d) ===');
+  const today = dayjs().tz(TZ);
+  const cutoff8dMs = today.subtract(8, 'day').startOf('day').valueOf();
+
+  for (const ch of Object.values(channelsMap)) {
+    if (ch.source === 'jiotv') {
+      ch.programmes = ch.programmes.filter((p) => p.stopMs > cutoff8dMs);
+    }
+  }
+
   const jioJsonChannels = loadProviderChannelsFromJson('JioTV');
-  console.log(`[JioTV] JSON चॅनेल्स: ${jioJsonChannels.length}`);
+  if (!jioJsonChannels.length) return;
 
-  const channelsMap = {};
-  if (!jioJsonChannels.length) return channelsMap;
-
-  const offsets = [-8, -7, -6, -5, -4, -3, -2, -1, 0, 1];
+  const offsets = [0, 1];
   const chunk = 20;
 
   for (let i = 0; i < jioJsonChannels.length; i += chunk) {
@@ -225,6 +322,7 @@ async function fetchJioTVData() {
           id,
           name,
           logo: jioCh.logo || '',
+          source: 'jiotv',
           programmes: []
         };
       }
@@ -255,24 +353,29 @@ async function fetchJioTVData() {
 
     await sleep(400);
   }
-
-  console.log(`[JioTV] पूर्ण झाले. Channels: ${Object.keys(channelsMap).length}`);
-  return channelsMap;
 }
 
 // ==========================================
-// STEP 3: TATAPAY (JSON शिवाय थेट API | Past 1d + Today + Future 1d)
+// TATAPAY INCREMENTAL FETCH
 // ==========================================
-async function fetchTataPlayData() {
-  console.log('\n=== STEP 3/3: TataPlay (Past 1d + Today + Future 1d) ===');
+async function updateTataPlayIncremental(channelsMap) {
+  console.log('\n=== STEP 3/4: TataPlay (Roll 8th day if >=8d else roll >1d, Fetch Today + Future 1d) ===');
   const today = dayjs().tz(TZ);
+  const cutoff8dMs = today.subtract(8, 'day').startOf('day').valueOf();
+  const cutoff1dMs = today.subtract(1, 'day').startOf('day').valueOf();
+
+  for (const ch of Object.values(channelsMap)) {
+    if (ch.source === 'tataplay') {
+      const has8DaysData = ch.programmes.some((p) => p.startMs <= cutoff8dMs);
+      const activeCutoff = has8DaysData ? cutoff8dMs : cutoff1dMs;
+      ch.programmes = ch.programmes.filter((p) => p.stopMs > activeCutoff);
+    }
+  }
+
   const datesToFetch = [
-    today.subtract(1, 'day').format('DD-MM-YYYY'),
     today.format('DD-MM-YYYY'),
     today.add(1, 'day').format('DD-MM-YYYY')
   ];
-
-  const channelsMap = {};
 
   for (const dateStr of datesToFetch) {
     let currentOffset = 0;
@@ -314,6 +417,7 @@ async function fetchTataPlayData() {
             id,
             name: ch.title,
             logo: ch.transparentImageUrl || ch.thumbnailImage || '',
+            source: 'tataplay',
             programmes: []
           };
         }
@@ -337,68 +441,110 @@ async function fetchTataPlayData() {
       await sleep(2000);
     }
   }
-
-  console.log(`[TataPlay] पूर्ण झाले. Channels: ${Object.keys(channelsMap).length}`);
-  return channelsMap;
 }
 
-function appendProgrammesXml(channelsMap, minStartMs, maxEndMs) {
-  let chunkXml = '';
-  for (const ch of Object.values(channelsMap)) {
-    const seen = new Set();
-    for (const p of ch.programmes) {
-      if (p.stopMs > minStartMs && p.startMs < maxEndMs) {
-        const key = `${p.startMs}_${p.stopMs}_${p.title}`;
-        if (seen.has(key)) continue;
-        seen.add(key);
+// ==========================================
+// SAMSUNG TV PLUS (फक्त JSON मधील provider: "samsungtvplus" चॅनेल्स | Present 24h + Future 1d 24h)
+// ==========================================
+async function fetchSamsung24hTodayAndTomorrow() {
+  console.log('\n=== STEP 4/4: Samsung TV Plus (JSON samsungtvplus only | Present 24h + Future 1d 24h) ===');
+  const samsungJsonChannels = loadProviderChannelsFromJson('samsungtvplus');
+  console.log(`[Samsung] JSON मध्ये मिळालेले samsungtvplus चॅनेल्स: ${samsungJsonChannels.length}`);
 
-        const startStr = dayjs(p.startMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
-        const stopStr = dayjs(p.stopMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
+  if (!samsungJsonChannels.length) {
+    console.log('[Samsung] JSON मध्ये samsungtvplus चॅनेल्स नाहीत, स्किप करत आहे.');
+    return { filteredChannels: [], samsungProgrammes: [] };
+  }
 
-        chunkXml += `  <programme start="${startStr}" stop="${stopStr}" channel="${escapeXML(ch.id)}">\n`;
-        chunkXml += `    <title lang="en">${escapeXML(p.title)}</title>\n`;
-        if (p.desc) {
-          chunkXml += `    <desc lang="en">${escapeXML(p.desc)}</desc>\n`;
-        }
-        if (p.category) {
-          chunkXml += `    <category lang="en">${escapeXML(p.category)}</category>\n`;
-        }
-        if (p.icon) {
-          chunkXml += `    <icon src="${escapeXML(p.icon)}" />\n`;
-        }
-        chunkXml += `  </programme>\n`;
+  const allowedSamsungMap = new Map();
+  for (const ch of samsungJsonChannels) {
+    allowedSamsungMap.set(ch.id, ch);
+  }
+
+  const today = dayjs().tz(TZ);
+  const windowStartMs = today.startOf('day').valueOf();
+  const windowEndMs = today.add(1, 'day').endOf('day').valueOf();
+
+  const samsungChannels = {};
+  const samsungProgrammes = [];
+
+  try {
+    const resp = await axios.get(SAMSUNG_URL, { responseType: 'arraybuffer', timeout: 30000 });
+    const xmlText = zlib.gunzipSync(Buffer.from(resp.data)).toString('utf-8');
+
+    const chBlocks = xmlText.match(/<channel\b[^>]*>[\s\S]*?<\/channel>/g) || [];
+    for (const block of chBlocks) {
+      const idMatch = block.match(/\bid="([^"]+)"/);
+      if (!idMatch) continue;
+      const chId = idMatch[1];
+      if (!allowedSamsungMap.has(chId)) continue;
+      samsungChannels[chId] = block.trim();
+    }
+
+    const usedChannelIds = new Set();
+    const progBlocks = xmlText.match(/<programme\b([^>]*)>([\s\S]*?)<\/programme>/g) || [];
+
+    for (const block of progBlocks) {
+      const attrsMatch = block.match(/^<programme\b([^>]*)>/);
+      if (!attrsMatch) continue;
+      const attrs = attrsMatch[1];
+
+      const chMatch = attrs.match(/\bchannel="([^"]+)"/);
+      const startMatch = attrs.match(/\bstart="(\d{14})\s*([+-]\d{4})?"/);
+      const stopMatch = attrs.match(/\bstop="(\d{14})\s*([+-]\d{4})?"/);
+      if (!chMatch || !startMatch || !stopMatch) continue;
+
+      const chId = chMatch[1];
+      if (!allowedSamsungMap.has(chId)) continue;
+
+      const startMs = parseXmltvDate(startMatch[1], startMatch[2] || '+05:30');
+      const stopMs = parseXmltvDate(stopMatch[1], stopMatch[2] || '+05:30');
+
+      if (stopMs > windowStartMs && startMs < windowEndMs) {
+        usedChannelIds.add(chId);
+        samsungProgrammes.push(block.trim());
       }
     }
+
+    const filteredChannels = [];
+    for (const [id, jsonInfo] of allowedSamsungMap.entries()) {
+      if (samsungChannels[id]) {
+        filteredChannels.push(samsungChannels[id]);
+      } else if (usedChannelIds.has(id)) {
+        const displayName = escapeXML(jsonInfo.name || id);
+        const logoTag = jsonInfo.logo ? `\n    <icon src="${escapeXML(jsonInfo.logo)}" />` : '';
+        filteredChannels.push(`  <channel id="${escapeXML(id)}">\n    <display-name>${displayName}</display-name>${logoTag}\n  </channel>`.trim());
+      }
+    }
+
+    console.log(`[Samsung] Matched JSON Channels: ${filteredChannels.length}, Programmes: ${samsungProgrammes.length}`);
+    return { filteredChannels, samsungProgrammes };
+  } catch (err) {
+    console.error('[Samsung] Fetch error:', err.message);
+    return { filteredChannels: [], samsungProgrammes: [] };
   }
-  return chunkXml;
 }
 
+// ==========================================
+// FINAL ASSEMBLY -> फक्त ./epg/combine.xml.gz
+// ==========================================
 async function main() {
   const now = dayjs().tz(TZ);
   const past8StartMs = now.subtract(8, 'day').startOf('day').valueOf();
-  const past1StartMs = now.subtract(1, 'day').startOf('day').valueOf();
   const future1EndMs = now.add(1, 'day').endOf('day').valueOf();
 
-  // १. आधी DishTV (Past 8d + Today + Future 1d)
-  const dishMap = await fetchDishTVData();
+  const channelsMap = loadExistingCombineData();
 
-  // २. नंतर JioTV (Past 8d + Today + Future 1d)
-  const jioMap = await fetchJioTVData();
+  await updateDishTVIncremental(channelsMap);
+  await updateJioTVIncremental(channelsMap);
+  await updateTataPlayIncremental(channelsMap);
 
-  // ३. नंतर TataPlay (Past 1d + Today + Future 1d)
-  const tataMap = await fetchTataPlayData();
-
-  // सर्व चॅनेल्स एकत्र करणे
-  const allChannels = [
-    ...Object.values(dishMap),
-    ...Object.values(jioMap),
-    ...Object.values(tataMap)
-  ];
+  const { filteredChannels: samsungChannels, samsungProgrammes } = await fetchSamsung24hTodayAndTomorrow();
 
   let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
   xml += '<tv generator-info-name="Combine-EPG">\n';
 
-  for (const ch of allChannels) {
+  for (const ch of Object.values(channelsMap)) {
     xml += `  <channel id="${escapeXML(ch.id)}">\n`;
     xml += `    <display-name>${escapeXML(ch.name)}</display-name>\n`;
     if (ch.logo) {
@@ -407,19 +553,71 @@ async function main() {
     xml += `  </channel>\n`;
   }
 
-  // DishTV + JioTV: Past 8d + Today + Future 1d
-  xml += appendProgrammesXml(dishMap, past8StartMs, future1EndMs);
-  xml += appendProgrammesXml(jioMap, past8StartMs, future1EndMs);
+  for (const sCh of samsungChannels) {
+    xml += `  ${sCh}\n`;
+  }
 
-  // TataPlay: Past 1d + Today + Future 1d
-  xml += appendProgrammesXml(tataMap, past1StartMs, future1EndMs);
+  for (const ch of Object.values(channelsMap)) {
+    const seen = new Set();
+    for (const p of ch.programmes) {
+      if (p.stopMs > past8StartMs && p.startMs < future1EndMs) {
+        const key = `${p.startMs}_${p.stopMs}_${p.title}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        const startStr = dayjs(p.startMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
+        const stopStr = dayjs(p.stopMs).tz(TZ).format('YYYYMMDDHHmmss ZZ');
+
+        xml += `  <programme start="${startStr}" stop="${stopStr}" channel="${escapeXML(ch.id)}">\n`;
+        xml += `    <title lang="en">${escapeXML(p.title)}</title>\n`;
+        if (p.desc) {
+          xml += `    <desc lang="en">${escapeXML(p.desc)}</desc>\n`;
+        }
+        if (p.category) {
+          xml += `    <category lang="en">${escapeXML(p.category)}</category>\n`;
+        }
+        if (p.icon) {
+          xml += `    <icon src="${escapeXML(p.icon)}" />\n`;
+        }
+        xml += `  </programme>\n`;
+      }
+    }
+  }
+
+  for (const sProg of samsungProgrammes) {
+    xml += `  ${sProg}\n`;
+  }
+
+  // फक्त Elitebeam_Movies आणि Elitebeam_Music चे प्रोग्राम्स जोडणे
+  const customChannels = [
+    { id: 'Elitebeam_Movies', name: 'EliteBeam Premium Movies', title: 'Epg EliteBeam Premium Movies' },
+    { id: 'Elitebeam_Music', name: 'EliteBeam Premium Movies', title: 'EliteBeam Premium Movies' }
+  ];
+
+  for (const cCh of customChannels) {
+    xml += `  <channel id="${escapeXML(cCh.id)}">\n`;
+    xml += `    <display-name>${escapeXML(cCh.name)}</display-name>\n`;
+    xml += `  </channel>\n`;
+
+    let loopTime = now.subtract(8, 'day').startOf('day');
+    while (loopTime.isBefore(future1EndMs)) {
+      const nextTime = loopTime.add(2, 'hour');
+      const startStr = loopTime.tz(TZ).format('YYYYMMDDHHmmss ZZ');
+      const stopStr = nextTime.tz(TZ).format('YYYYMMDDHHmmss ZZ');
+
+      xml += `  <programme start="${startStr}" stop="${stopStr}" channel="${escapeXML(cCh.id)}">\n`;
+      xml += `    <title lang="en">${escapeXML(cCh.title)}</title>\n`;
+      xml += `  </programme>\n`;
+
+      loopTime = nextTime;
+    }
+  }
 
   xml += '</tv>';
 
-  // epg फोल्डर स्वच्छ करून फक्त combine.xml.gz तयार करणे
   fs.rmSync('./epg', { recursive: true, force: true });
   fs.mkdirSync('./epg', { recursive: true });
-  fs.writeFileSync('./epg/combine.xml.gz', zlib.gzipSync(xml));
+  fs.writeFileSync(COMBINE_GZ_PATH, zlib.gzipSync(xml));
 
   console.log('\n✅ फक्त ./epg/combine.xml.gz तयार झाली आहे!');
 }
