@@ -1,0 +1,51 @@
+name: Generate EPG (DishTV + JioTV + TataPlay)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # रोज 00:00 UTC म्हणजेच 05:30 AM IST (तुमच्या वेळेनुसार बदलता येईल)
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm ci || npm install
+          else
+            npm init -y && npm install axios dayjs
+          fi
+
+      - name: Run EPG Generator Script
+        env:
+          TZ: Asia/Kolkata
+        run: node generate_epg.js
+
+      - name: Commit and Push generated .xml.gz files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -f epg/*.xml.gz
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update EPG files ($(date +'%Y-%m-%d %H:%M IST'))"
+            git push
+          fi
+          
