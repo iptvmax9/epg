@@ -1,0 +1,9082 @@
+[
+    {
+        "id": "IN4900003U3",
+        "name": "ETV Comedy",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN4900004LP",
+        "name": "ETV Josh",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN4900002RV",
+        "name": "ETV Beats",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN3800010SH",
+        "name": "Hollywood Desi",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN4600009F9",
+        "name": "Hooray Kids",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN4600007TC",
+        "name": "Hooray Rhymes",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "INBD4700015M0",
+        "name": "Music India",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN400061DB",
+        "name": "NH Tamil Gold",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN21000014R",
+        "name": "Zee Cine Classic",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN2100002GD",
+        "name": "Zee Comedy Nation",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN2100003OJ",
+        "name": "Zee Dil Se",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN2100004C4",
+        "name": "Zee Horror Nights",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN2100005T2",
+        "name": "Zee South Flix",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN38000072R",
+        "name": "The Movie Club",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN40000100Y",
+        "name": "The Movie Club+2",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "IN3800008CX",
+        "name": "South Station",
+        "source": "samsungtvplus"
+    },
+    {
+        "id": "142637",
+        "name": "& Pictures",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142638",
+        "name": "& Pictures HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142640",
+        "name": "&TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142641",
+        "name": "&TV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142495",
+        "name": "10TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "90012",
+        "name": "9X Jhakaas",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142504",
+        "name": "9X Tashan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "77447",
+        "name": "9XM",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142505",
+        "name": "Aadinath",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142507",
+        "name": "Aaj Tak",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142510",
+        "name": "Aakash Aath",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158133",
+        "name": "Aastha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142514",
+        "name": "Aastha Bhajan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158134",
+        "name": "Aastha Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158136",
+        "name": "Aastha Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142517",
+        "name": "ABN Andhra Jyothy",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142518",
+        "name": "ABP Ananda",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142519",
+        "name": "ABP Asmita",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142521",
+        "name": "ABP Majha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158138",
+        "name": "ABP News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144434",
+        "name": "Action Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142548",
+        "name": "Adithya TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159135",
+        "name": "Al Jazeera English",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142630",
+        "name": "Alankar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "160750",
+        "name": "All Time Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "211888",
+        "name": "Always ON",
+        "provider": "DishTV"
+    },
+    {
+        "id": "211921",
+        "name": "Always ON Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142632",
+        "name": "Amrita TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157574",
+        "name": "Animal Planet",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158140",
+        "name": "Animal Planet HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144436",
+        "name": "Anmol Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144449",
+        "name": "Anmol Cinema 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144435",
+        "name": "Anmol TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142649",
+        "name": "Aradana TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142650",
+        "name": "Argus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142668",
+        "name": "Asianet",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142673",
+        "name": "Asianet HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142677",
+        "name": "Asianet Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158302",
+        "name": "Asianet Movies HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142679",
+        "name": "Asianet News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142680",
+        "name": "Asianet Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142682",
+        "name": "Asianet Suvarna News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142683",
+        "name": "Assam Talks",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142692",
+        "name": "Ayush TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142892",
+        "name": "Ayushmaan Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142694",
+        "name": "B4U Bhojpuri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142695",
+        "name": "B4U Kadak",
+        "provider": "DishTV"
+    },
+    {
+        "id": "140063",
+        "name": "B4U Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158141",
+        "name": "B4U Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142697",
+        "name": "Balle Balle",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158142",
+        "name": "BBC News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142709",
+        "name": "Bhakti TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142710",
+        "name": "Bharat 24",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142711",
+        "name": "Bharat Express",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142713",
+        "name": "Bhojpuri Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142715",
+        "name": "BIG Magic",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159391",
+        "name": "Buzz SD Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159392",
+        "name": "Buzz SD Duplicate 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142725",
+        "name": "Calcutta News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157576",
+        "name": "Cartoon Network",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142736",
+        "name": "Chardikla Time TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142737",
+        "name": "Chintu TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142738",
+        "name": "Chithiram",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142739",
+        "name": "Chutti TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142742",
+        "name": "CNBC Bajar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142743",
+        "name": "CNBC TV18",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142744",
+        "name": "CNBC TV18 Prime",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142745",
+        "name": "CNBC-Awaaz",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157679",
+        "name": "CNN International",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142747",
+        "name": "CNN-News18",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158144",
+        "name": "Colors",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157577",
+        "name": "Colors Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142748",
+        "name": "Colors Bangla Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158145",
+        "name": "Colors Bangla HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158146",
+        "name": "Colors Cineplex",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142749",
+        "name": "Colors Cineplex Bollywood",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158147",
+        "name": "Colors Cineplex HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142750",
+        "name": "Colors Cineplex Superhits",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158148",
+        "name": "Colors Gujarati",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142751",
+        "name": "Colors Gujarati Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158149",
+        "name": "Colors HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157578",
+        "name": "Colors Infinity",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158150",
+        "name": "Colors Infinity HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157579",
+        "name": "Colors Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142752",
+        "name": "Colors Kannada Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158235",
+        "name": "Colors Kannada HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157580",
+        "name": "Colors Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158237",
+        "name": "Colors Marathi HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158239",
+        "name": "Colors Rishtey",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158240",
+        "name": "Colors Super",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157682",
+        "name": "Colors Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158241",
+        "name": "Colors Tamil HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142898",
+        "name": "Comedy Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "192071",
+        "name": "Crunchyroll Anime Top Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142754",
+        "name": "CTVN AKD Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142900",
+        "name": "Customer Care",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142771",
+        "name": "Dangal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142772",
+        "name": "Dangal 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142774",
+        "name": "Darshana TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142776",
+        "name": "DD Arun Prabha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142777",
+        "name": "DD Assam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142778",
+        "name": "DD Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142779",
+        "name": "DD Bharati",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142780",
+        "name": "DD Bihar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142781",
+        "name": "DD Chandana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "154889",
+        "name": "DD CHHATTISGARH",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142782",
+        "name": "DD Girnar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209534",
+        "name": "DD Girnar HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142783",
+        "name": "DD GOA",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142784",
+        "name": "DD Haryana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142785",
+        "name": "DD Himachal Pradesh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158251",
+        "name": "DD India",
+        "provider": "DishTV"
+    },
+    {
+        "id": "154545",
+        "name": "DD India HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142787",
+        "name": "DD JHARKHAND",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142788",
+        "name": "DD Kashir",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142789",
+        "name": "DD Kisan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209326",
+        "name": "DD Kisan HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142790",
+        "name": "DD Madhya Pradesh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142791",
+        "name": "DD Malayalam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142792",
+        "name": "DD Manipur",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142793",
+        "name": "DD MEGHALAYA",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142794",
+        "name": "DD MIZORAM",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142795",
+        "name": "DD NAGALAND",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158252",
+        "name": "DD National",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158253",
+        "name": "DD National HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158254",
+        "name": "DD News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157683",
+        "name": "DD News HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142796",
+        "name": "DD Oriya",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209539",
+        "name": "DD Oriya HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142800",
+        "name": "DD Punjabi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142801",
+        "name": "DD Rajasthan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142803",
+        "name": "DD Sahyadri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209541",
+        "name": "DD Sahyadri HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142804",
+        "name": "DD Saptagiri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158255",
+        "name": "DD Sports",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158312",
+        "name": "DD Sports HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142797",
+        "name": "DD TAMIL",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209540",
+        "name": "DD TAMIL HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142806",
+        "name": "DD Tripura",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142807",
+        "name": "DD UP",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142808",
+        "name": "DD Urdu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142809",
+        "name": "DD Uttrakhand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142810",
+        "name": "DD Yadagiri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142651",
+        "name": "Dharam Sandesh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142882",
+        "name": "Dhoom Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "100869",
+        "name": "Discovery Channel",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159106",
+        "name": "Discovery HD World",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159011",
+        "name": "Discovery Kids",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159107",
+        "name": "Discovery Science",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159108",
+        "name": "Discovery Turbo",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142893",
+        "name": "Dish Bhakti Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142894",
+        "name": "Dish Buzz",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142896",
+        "name": "DISH BUZZ HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159339",
+        "name": "DISH BUZZ HD Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159340",
+        "name": "DISH BUZZ HD Duplicate1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142897",
+        "name": "Dish Cine Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142902",
+        "name": "Dish Fitness Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142911",
+        "name": "Dish Kids Rhymes",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142912",
+        "name": "Dish Kids Toon",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142926",
+        "name": "Dish TV Evergreen Classic",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142985",
+        "name": "Dish TV VZY",
+        "provider": "DishTV"
+    },
+    {
+        "id": "217056",
+        "name": "DD Chandana Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "217055",
+        "name": "DD Malayalam Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "217320",
+        "name": "DD Saptagiri Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "227871",
+        "name": "Kannada Home",
+        "provider": "DishTV"
+    },
+    {
+        "id": "213784",
+        "name": "Living India News Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "227872",
+        "name": "Malayalam Home",
+        "provider": "DishTV"
+    },
+    {
+        "id": "219592",
+        "name": "Nation 27 Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "219559",
+        "name": "One Day Extra Offer",
+        "provider": "DishTV"
+    },
+    {
+        "id": "216311",
+        "name": "Public TV Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "213783",
+        "name": "R.Bangla Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "213785",
+        "name": "R.Kannada Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "213786",
+        "name": "Republic TV Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "227873",
+        "name": "Tamil Home",
+        "provider": "DishTV"
+    },
+    {
+        "id": "227838",
+        "name": "Telugu Home",
+        "provider": "DishTV"
+    },
+    {
+        "id": "216312",
+        "name": "TV9 Telugu Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "229119",
+        "name": "VZY Exclusive",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142906",
+        "name": "Welcome on Board",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159012",
+        "name": "Disney Channel",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158843",
+        "name": "Disney Channel HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142989",
+        "name": "Disney International HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142990",
+        "name": "Disney Junior",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143010",
+        "name": "Divya",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143012",
+        "name": "DTamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143015",
+        "name": "DY365",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143018",
+        "name": "Enterr10 Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157803",
+        "name": "Epic Bhojpuri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159014",
+        "name": "Epic Kids",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159097",
+        "name": "Epic Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159015",
+        "name": "Epic Parivar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159013",
+        "name": "Epic TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143021",
+        "name": "ET Now",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143022",
+        "name": "ET Now Swadesh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143024",
+        "name": "ETV Andhra Pradesh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143025",
+        "name": "ETV Bal Bharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143026",
+        "name": "ETV Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143028",
+        "name": "ETV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143029",
+        "name": "ETV Life",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143023",
+        "name": "ETV Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143030",
+        "name": "ETV Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143032",
+        "name": "ETV Telangana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143033",
+        "name": "ETV Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157802",
+        "name": "EUROSPORT",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159010",
+        "name": "EUROSPORT HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143038",
+        "name": "Fakt Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143065",
+        "name": "Flowers TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159111",
+        "name": "France 24",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143087",
+        "name": "Goldmines",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143089",
+        "name": "Goldmines Bollywood",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142881",
+        "name": "Goldmines Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143090",
+        "name": "Good News Today",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143091",
+        "name": "Goodness TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "202705",
+        "name": "GTC News HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "202704",
+        "name": "GTC Punjabi HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143096",
+        "name": "Gujarat First",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143097",
+        "name": "Gulistan News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143100",
+        "name": "Gyandarshan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143102",
+        "name": "Hare Krsna",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143131",
+        "name": "HINDU DHARMAM",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143132",
+        "name": "History TV18",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143133",
+        "name": "History TV18 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143136",
+        "name": "HMTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158301",
+        "name": "Hollywood Indie Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143150",
+        "name": "Hungama",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143156",
+        "name": "IBC24",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158825",
+        "name": "India Daily 24x7",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158785",
+        "name": "India Daily Live Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143190",
+        "name": "India News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143192",
+        "name": "India News Haryana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143197",
+        "name": "INDIA TODAY",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143199",
+        "name": "India TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157811",
+        "name": "Investigation Discovery",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143212",
+        "name": "Isai Aruvi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143215",
+        "name": "J Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143217",
+        "name": "Jaihind TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143218",
+        "name": "Jalsha Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143219",
+        "name": "Jalsha Movies HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143221",
+        "name": "Janam TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143225",
+        "name": "Jay Jagannath",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143226",
+        "name": "Jaya Max",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143227",
+        "name": "Jaya Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143228",
+        "name": "Jaya TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143230",
+        "name": "Jinvani",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143237",
+        "name": "JK 24x7 News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143238",
+        "name": "Jonack",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143239",
+        "name": "Jothi TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "206138",
+        "name": "K News India Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143246",
+        "name": "Kairali News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143247",
+        "name": "Kairali TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143248",
+        "name": "Kairali We",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143249",
+        "name": "Kalaignar TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143250",
+        "name": "Kalinga TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143252",
+        "name": "Kanak News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209124",
+        "name": "Kannada Chitra Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143259",
+        "name": "Kaumudy TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159287",
+        "name": "KBS World",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143262",
+        "name": "Khabrain Abhi Tak",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143269",
+        "name": "Kochu TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143271",
+        "name": "Kolkata TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142913",
+        "name": "KOREAN DRAMA ACTIVE",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143274",
+        "name": "KTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "145322",
+        "name": "KTV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143275",
+        "name": "Kushi TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "181408",
+        "name": "Live Times",
+        "provider": "DishTV"
+    },
+    {
+        "id": "169160",
+        "name": "Live Times",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143283",
+        "name": "Living India News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143284",
+        "name": "LOKSHAHI MARATHI",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143287",
+        "name": "Madha TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143296",
+        "name": "Makkal TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143297",
+        "name": "Malaimurasu Seithikal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159016",
+        "name": "Manorama News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143302",
+        "name": "Manoranjan Grand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143303",
+        "name": "Manoranjan Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143304",
+        "name": "Manoranjan TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143309",
+        "name": "Mathrubhumi News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143310",
+        "name": "Mazhavil Manorama",
+        "provider": "DishTV"
+    },
+    {
+        "id": "147769",
+        "name": "Mazhavil Manorama HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "135691",
+        "name": "MBC TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143345",
+        "name": "MediaOne",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143425",
+        "name": "Mega 24",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143532",
+        "name": "Mega Musiq",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143533",
+        "name": "Mega TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143536",
+        "name": "MH One Dil Se",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143538",
+        "name": "MH One Shraddha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143540",
+        "name": "MH1 News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143539",
+        "name": "MHONE",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143543",
+        "name": "Mirror Now",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143548",
+        "name": "MN+",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143549",
+        "name": "MNX",
+        "provider": "DishTV"
+    },
+    {
+        "id": "147570",
+        "name": "MNX HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "140066",
+        "name": "Movies Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143554",
+        "name": "Movies Now",
+        "provider": "DishTV"
+    },
+    {
+        "id": "147571",
+        "name": "Movies Now HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143558",
+        "name": "MTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159093",
+        "name": "MTV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143561",
+        "name": "Murasu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143563",
+        "name": "Music India",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143567",
+        "name": "Nambikkai TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143571",
+        "name": "Nat Geo Wild",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143572",
+        "name": "Nat Geo Wild HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143573",
+        "name": "National Geographic Channel",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143574",
+        "name": "National Geographic Channel HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "179441",
+        "name": "NATON 27",
+        "provider": "DishTV"
+    },
+    {
+        "id": "154895",
+        "name": "NDTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157588",
+        "name": "NDTV India",
+        "provider": "DishTV"
+    },
+    {
+        "id": "166276",
+        "name": "NDTV Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158324",
+        "name": "NDTV MPCG",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158325",
+        "name": "NDTV Rajasthan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158851",
+        "name": "Ne News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143584",
+        "name": "Nepal 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143585",
+        "name": "Network 10",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143587",
+        "name": "News 1st Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143593",
+        "name": "News India 24x7",
+        "provider": "DishTV"
+    },
+    {
+        "id": "221801",
+        "name": "News Leader",
+        "provider": "DishTV"
+    },
+    {
+        "id": "225648",
+        "name": "News Leader Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143595",
+        "name": "News Live",
+        "provider": "DishTV"
+    },
+    {
+        "id": "140067",
+        "name": "News Live Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "166320",
+        "name": "News Malayalam 24x7",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143596",
+        "name": "News Nation",
+        "provider": "DishTV"
+    },
+    {
+        "id": "169169",
+        "name": "News State Punjab Haryana Himachal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143601",
+        "name": "News State UK UP",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143604",
+        "name": "News1 India",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143606",
+        "name": "News18 Assam North East",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143607",
+        "name": "News18 Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143608",
+        "name": "News18 Bihar Jharkhand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143611",
+        "name": "News18 Delhi NCR Jammu Kashmir",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143609",
+        "name": "News18 Gujarati",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143610",
+        "name": "News18 India",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143612",
+        "name": "News18 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143613",
+        "name": "News18 Kerala",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143615",
+        "name": "News18 Madhya Pradesh Chhattisgarh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143614",
+        "name": "News18 Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143616",
+        "name": "News18 Odia",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143617",
+        "name": "News18 Punjab Haryana Himachal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143618",
+        "name": "NEWS18 RAJASTHAN",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143619",
+        "name": "News18 Tamil Nadu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143621",
+        "name": "News18 Uttar Pradesh Uttarakhand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "90009",
+        "name": "News24",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143578",
+        "name": "News7",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143623",
+        "name": "NewsTamil 24x7",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143624",
+        "name": "NewsX",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143625",
+        "name": "Nick",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159121",
+        "name": "Nick HD+",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157820",
+        "name": "Nick Junior",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143633",
+        "name": "North East Live",
+        "provider": "DishTV"
+    },
+    {
+        "id": "154897",
+        "name": "NTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143638",
+        "name": "Oscar Movies Bhojpuri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143639",
+        "name": "OTV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143642",
+        "name": "Paras Gold One",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143643",
+        "name": "Pasand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143646",
+        "name": "Peace of Mind",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143650",
+        "name": "Pitaara",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143663",
+        "name": "Pogo",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143664",
+        "name": "Polimer News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143665",
+        "name": "Polimer TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143669",
+        "name": "Power TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143670",
+        "name": "Powervision",
+        "provider": "DishTV"
+    },
+    {
+        "id": "181409",
+        "name": "Prag News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143671",
+        "name": "Prag News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143620",
+        "name": "Prarthana Life",
+        "provider": "DishTV"
+    },
+    {
+        "id": "216738",
+        "name": "Pratham News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143674",
+        "name": "Pratidin Time",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143675",
+        "name": "Pravah Picture",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143676",
+        "name": "Pravah Picture HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143681",
+        "name": "PTC Chakde",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143682",
+        "name": "PTC Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143683",
+        "name": "PTC News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159123",
+        "name": "PTC Punjabi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143684",
+        "name": "PTC Punjabi Gold",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143685",
+        "name": "PTC Simran",
+        "provider": "DishTV"
+    },
+    {
+        "id": "225649",
+        "name": "PTC Simran Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143686",
+        "name": "Public Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143687",
+        "name": "Public Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143688",
+        "name": "Public TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158328",
+        "name": "Pudhari News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143692",
+        "name": "Puthiya Thalaimurai",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143693",
+        "name": "Puthu Yugam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143697",
+        "name": "R. Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142883",
+        "name": "R. Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143704",
+        "name": "Raj Digital Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143705",
+        "name": "Raj Musix Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143706",
+        "name": "Raj Musix Malayalam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143707",
+        "name": "Raj Musix Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143708",
+        "name": "Raj Musix Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143709",
+        "name": "Raj News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143710",
+        "name": "Raj News Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143711",
+        "name": "Raj News Malayalam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143712",
+        "name": "Raj News Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143715",
+        "name": "Raj TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143717",
+        "name": "Ramdhenu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143718",
+        "name": "Rang",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142918",
+        "name": "Rangmanch Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142919",
+        "name": "RECHARGE REMINDER",
+        "provider": "DishTV"
+    },
+    {
+        "id": "181417",
+        "name": "Rengoni",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143722",
+        "name": "Rengoni TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "85096",
+        "name": "Reporter",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143724",
+        "name": "Republic Bharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143723",
+        "name": "Republic TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143729",
+        "name": "Romedy Now",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142401",
+        "name": "RT",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143733",
+        "name": "Rupasi Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144897",
+        "name": "Russia Today Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143735",
+        "name": "Saam TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158326",
+        "name": "Sadhna Gold",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143739",
+        "name": "Safari TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143741",
+        "name": "Sai TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143742",
+        "name": "SAILEELA TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143744",
+        "name": "Sakshi TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144466",
+        "name": "Salaam TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143755",
+        "name": "Sandesh News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143756",
+        "name": "Sangeet Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143757",
+        "name": "Sangeet Bhojpuri",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143760",
+        "name": "Sansad TV 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "166275",
+        "name": "Sansad TV 1 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "145426",
+        "name": "Sansad TV 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143761",
+        "name": "Sansad TV 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143713",
+        "name": "Sanskar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143765",
+        "name": "Sathiyam TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143766",
+        "name": "Satsang",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143769",
+        "name": "Seithigal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157589",
+        "name": "SET",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159096",
+        "name": "SET HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143774",
+        "name": "Shalom TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158861",
+        "name": "Shemaroo Josh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143777",
+        "name": "Shemaroo Marathibana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143778",
+        "name": "Shemaroo TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157960",
+        "name": "Shorts TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143783",
+        "name": "Shubh TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143786",
+        "name": "Sidharth GOLD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143787",
+        "name": "Sidharth TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143785",
+        "name": "Sidharth Utsav",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143790",
+        "name": "Siri Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143791",
+        "name": "Sirippoli",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158865",
+        "name": "Skyama Daily Post News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142920",
+        "name": "Songdew",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159124",
+        "name": "Sonic",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157968",
+        "name": "Sony AATH",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143799",
+        "name": "SONY BBC Earth",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143800",
+        "name": "SONY BBC Earth HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157970",
+        "name": "Sony Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157590",
+        "name": "SONY MAX",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143801",
+        "name": "SONY MAX 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159098",
+        "name": "SONY MAX HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157973",
+        "name": "SONY PAL",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143802",
+        "name": "Sony Pix",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143803",
+        "name": "SONY PIX HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159125",
+        "name": "Sony SAB",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159099",
+        "name": "Sony SAB HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157591",
+        "name": "Sony Sports Ten 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159126",
+        "name": "Sony Sports Ten 1 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157592",
+        "name": "Sony Sports Ten 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159127",
+        "name": "Sony Sports Ten 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "153079",
+        "name": "Sony Sports Ten 3 Hindi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159128",
+        "name": "Sony Sports Ten 3 Hindi HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209012",
+        "name": "Sony Sports Ten 4 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143805",
+        "name": "Sony Sports Ten 4 Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "149166",
+        "name": "Sony Sports Ten 4 Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157593",
+        "name": "Sony Sports Ten 5",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159129",
+        "name": "Sony Sports Ten 5 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "224089",
+        "name": "Sony Vizha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "224090",
+        "name": "Sony Vizha HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157974",
+        "name": "Sony Wah",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159100",
+        "name": "SONY YAY",
+        "provider": "DishTV"
+    },
+    {
+        "id": "179440",
+        "name": "Sony MAX 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159130",
+        "name": "Star Bharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159101",
+        "name": "Star Bharat HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159131",
+        "name": "Star Gold",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143814",
+        "name": "Star Gold 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158297",
+        "name": "Star Gold 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143815",
+        "name": "Star Gold HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158298",
+        "name": "Star Gold Romance",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143816",
+        "name": "Star Gold Select",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143817",
+        "name": "Star Gold Select HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158822",
+        "name": "Star Gold Thrills",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143818",
+        "name": "Star Jalsha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143819",
+        "name": "Star Jalsha HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143820",
+        "name": "Star Kiran",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143821",
+        "name": "Star Maa",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143822",
+        "name": "Star Maa Gold",
+        "provider": "DishTV"
+    },
+    {
+        "id": "179620",
+        "name": "Star Maa HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143825",
+        "name": "Star Maa Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143826",
+        "name": "Star Maa Movies HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143828",
+        "name": "Star Maa Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "140069",
+        "name": "Star Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143829",
+        "name": "Star Movies HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158863",
+        "name": "Star Movies Select",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143830",
+        "name": "Star Movies Select HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143831",
+        "name": "STAR PLUS",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143832",
+        "name": "STAR PLUS HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143833",
+        "name": "Star Pravah",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143834",
+        "name": "Star Pravah HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143835",
+        "name": "Star Sports 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143837",
+        "name": "Star Sports 1 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143838",
+        "name": "Star Sports 1 HD Hindi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143839",
+        "name": "Star Sports 1 Hindi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143840",
+        "name": "Star Sports 1 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143842",
+        "name": "Star Sports 1 Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158299",
+        "name": "Star Sports 1 Tamil HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143843",
+        "name": "Star Sports 1 Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158300",
+        "name": "Star Sports 1 Telugu HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143844",
+        "name": "Star Sports 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143845",
+        "name": "Star Sports 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143807",
+        "name": "Star Sports 2 Hindi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143808",
+        "name": "Star Sports 2 Hindi HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143847",
+        "name": "Star Sports 2 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158352",
+        "name": "Star Sports 2 Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "179407",
+        "name": "Star Sports 2 Tamil HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158351",
+        "name": "Star Sports 2 Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "179406",
+        "name": "Star Sports 2 Telugu HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143846",
+        "name": "Star Sports 3",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143809",
+        "name": "Star Sports Khel",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143848",
+        "name": "Star Sports Select 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143849",
+        "name": "Star Sports Select 1 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143850",
+        "name": "Star Sports Select 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143851",
+        "name": "Star Sports Select 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143852",
+        "name": "Star Suvarna",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143853",
+        "name": "Star Suvarna HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143854",
+        "name": "Star Suvarna Plus",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159132",
+        "name": "Star Utsav",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143856",
+        "name": "Star Utsav Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144079",
+        "name": "Star Vijay",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144075",
+        "name": "Star Vijay HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144077",
+        "name": "Star Vijay Super",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158319",
+        "name": "Star Vijay Super HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143869",
+        "name": "Subhavaartha",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143870",
+        "name": "Sudarshan News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143871",
+        "name": "Sun Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143078",
+        "name": "Sun Gemini",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143074",
+        "name": "Sun Gemini Comedy",
+        "provider": "DishTV"
+    },
+    {
+        "id": "147755",
+        "name": "Sun Gemini HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143075",
+        "name": "Sun Gemini Life",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143076",
+        "name": "Sun Gemini Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143077",
+        "name": "Sun Gemini Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143873",
+        "name": "Sun Life",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143875",
+        "name": "SUN MARATHI",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143876",
+        "name": "Sun Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "145427",
+        "name": "Sun Music HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "160751",
+        "name": "Sun Neo",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143877",
+        "name": "Sun News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143888",
+        "name": "Sun Surya",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143884",
+        "name": "Sun Surya Comedy",
+        "provider": "DishTV"
+    },
+    {
+        "id": "149281",
+        "name": "Sun Surya HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143885",
+        "name": "Sun Surya Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143886",
+        "name": "Sun Surya Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "117852",
+        "name": "Sun TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158021",
+        "name": "Sun TV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144042",
+        "name": "Sun Udaya",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144039",
+        "name": "Sun Udaya Comedy",
+        "provider": "DishTV"
+    },
+    {
+        "id": "145430",
+        "name": "Sun Udaya HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144040",
+        "name": "Sun Udaya Movies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144041",
+        "name": "Sun Udaya Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143883",
+        "name": "Super Hungama",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143889",
+        "name": "SVBC",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143890",
+        "name": "SVBC 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143919",
+        "name": "T News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143292",
+        "name": "Tabbar Hits",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209091",
+        "name": "Tamil Talkies Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143927",
+        "name": "Tarang",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143926",
+        "name": "Tarang Music",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142921",
+        "name": "TELUGU ACTIVE",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144002",
+        "name": "TheQ",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144006",
+        "name": "Times Now",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144007",
+        "name": "Times Now Navbharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144008",
+        "name": "Times Now World HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158023",
+        "name": "TLC",
+        "provider": "DishTV"
+    },
+    {
+        "id": "123500",
+        "name": "TLC HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158792",
+        "name": "TNP News HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144014",
+        "name": "Travel XP",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144015",
+        "name": "Travel XP HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "173164",
+        "name": "TV100",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144024",
+        "name": "TV5 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144025",
+        "name": "TV5 Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "225682",
+        "name": "TV7 Bharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144026",
+        "name": "TV9 Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144027",
+        "name": "TV9 Bharatvarsh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144028",
+        "name": "TV9 Gujarati",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144029",
+        "name": "TV9 Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144030",
+        "name": "TV9 Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144031",
+        "name": "TV9 Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144032",
+        "name": "Twenty Four",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158844",
+        "name": "Unique TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144440",
+        "name": "Unite8 Sports 1",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144441",
+        "name": "Unite8 Sports 1 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142635",
+        "name": "Unite8 Sports 2",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142636",
+        "name": "Unite8 Sports 2 HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144047",
+        "name": "V6 News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144068",
+        "name": "Vasanth TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144069",
+        "name": "Vedic",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144070",
+        "name": "Velicham TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144078",
+        "name": "Vijay Takkar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144081",
+        "name": "Vissa TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144083",
+        "name": "VTV Gujarati",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144087",
+        "name": "WION",
+        "provider": "DishTV"
+    },
+    {
+        "id": "209090",
+        "name": "Yaadein Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144431",
+        "name": "Zee 24 Ghanta",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144432",
+        "name": "Zee 24 Kalak",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144433",
+        "name": "Zee 24 Taas",
+        "provider": "DishTV"
+    },
+    {
+        "id": "117853",
+        "name": "Zee Bangla",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158049",
+        "name": "Zee Bangla HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144437",
+        "name": "Zee Bangla Sonar",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144450",
+        "name": "Zee Bharat",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144153",
+        "name": "Zee Bihar Jharkhand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144209",
+        "name": "Zee Biskope",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144438",
+        "name": "Zee Bollywood",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144439",
+        "name": "Zee Business",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159104",
+        "name": "Zee Cinema",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144443",
+        "name": "Zee Cinema HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144445",
+        "name": "Zee Cinemalu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144446",
+        "name": "Zee Cinemalu HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144447",
+        "name": "Zee Classic",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144448",
+        "name": "Zee Delhi NCR Haryana",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144451",
+        "name": "Zee Kannada",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144452",
+        "name": "Zee Kannada HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144454",
+        "name": "Zee Keralam",
+        "provider": "DishTV"
+    },
+    {
+        "id": "148763",
+        "name": "Zee Keralam HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144455",
+        "name": "Zee Madhya Pradesh Chhattisgarh",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144457",
+        "name": "Zee Marathi",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144458",
+        "name": "Zee Marathi HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "159298",
+        "name": "Zee News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "181723",
+        "name": "Zee News Duplicate",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144462",
+        "name": "Zee Power",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144463",
+        "name": "Zee Punjab Haryana Himachal",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144465",
+        "name": "Zee Rajasthan",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144467",
+        "name": "Zee Sarthak",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144468",
+        "name": "Zee Talkies",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144469",
+        "name": "Zee Talkies HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144470",
+        "name": "Zee Tamil",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144471",
+        "name": "Zee Tamil HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144473",
+        "name": "Zee Telugu",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144474",
+        "name": "Zee Telugu HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158329",
+        "name": "Zee Telugu News",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144478",
+        "name": "Zee TV",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144479",
+        "name": "Zee TV HD",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144480",
+        "name": "Zee Uttar Pradesh Uttarakhand",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144481",
+        "name": "Zee Yuva",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144482",
+        "name": "Zee Zest",
+        "provider": "DishTV"
+    },
+    {
+        "id": "142986",
+        "name": "Zindagi Active",
+        "provider": "DishTV"
+    },
+    {
+        "id": "144484",
+        "name": "Zing",
+        "provider": "DishTV"
+    },
+    {
+        "id": "158797",
+        "name": "Zing Home",
+        "provider": "DishTV"
+    },
+    {
+        "id": "177794",
+        "name": "Zing Recharge Reminder",
+        "provider": "DishTV"
+    },
+    {
+        "id": "157600",
+        "name": "Zoom",
+        "provider": "DishTV"
+    },
+    {
+        "id": "143",
+        "name": "CNBC TV18 Prime",
+        "provider": "JioTV"
+    },
+    {
+        "id": "142",
+        "name": "BBC World News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "144",
+        "name": "Colors HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "146",
+        "name": "History TV18 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "151",
+        "name": "Movies Now HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "153",
+        "name": "Zee Talkies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "154",
+        "name": "Sony SAB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "155",
+        "name": "Sony Ten 5 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "156",
+        "name": "Star Gold HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "162",
+        "name": "Sony Ten 1 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "164",
+        "name": "Travelxp HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "165",
+        "name": "Zee Cinema HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "166",
+        "name": "Cartoon Network Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "167",
+        "name": "Zee TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "173",
+        "name": "Aaj Tak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "175",
+        "name": "Aastha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "177",
+        "name": "ABP News India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "180",
+        "name": "Asianet News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "182",
+        "name": "B4U Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "183",
+        "name": "B4U Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "185",
+        "name": "And Pictures HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "190",
+        "name": "CNBC Awaaz",
+        "provider": "JioTV"
+    },
+    {
+        "id": "193",
+        "name": "CNN",
+        "provider": "JioTV"
+    },
+    {
+        "id": "196",
+        "name": "Colors Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "202",
+        "name": "DD National",
+        "provider": "JioTV"
+    },
+    {
+        "id": "203",
+        "name": "DD News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "204",
+        "name": "DD Sports",
+        "provider": "JioTV"
+    },
+    {
+        "id": "212",
+        "name": "ET Now",
+        "provider": "JioTV"
+    },
+    {
+        "id": "231",
+        "name": "News 18 India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "232",
+        "name": "News18 Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "235",
+        "name": "India TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "242",
+        "name": "Discovery English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "248",
+        "name": "MTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "250",
+        "name": "Music India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "252",
+        "name": "ETV Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "255",
+        "name": "NDTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "258",
+        "name": "NDTV India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "259",
+        "name": "NDTV Profit",
+        "provider": "JioTV"
+    },
+    {
+        "id": "279",
+        "name": "Colors Rishtey",
+        "provider": "JioTV"
+    },
+    {
+        "id": "286",
+        "name": "Animal Planet HD English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "288",
+        "name": "Sanskar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "289",
+        "name": "Sony Max SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "290",
+        "name": "sonic Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "291",
+        "name": "SET HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "317",
+        "name": "Star Jalsha HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "336",
+        "name": "Star Pravah HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "368",
+        "name": "Star Vijay HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "370",
+        "name": "Suvarna HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "383",
+        "name": "Times NOW",
+        "provider": "JioTV"
+    },
+    {
+        "id": "400",
+        "name": "PM e Vidya 01",
+        "provider": "JioTV"
+    },
+    {
+        "id": "401",
+        "name": "Swayam Prabha 19",
+        "provider": "JioTV"
+    },
+    {
+        "id": "402",
+        "name": "PM e Vidya 02",
+        "provider": "JioTV"
+    },
+    {
+        "id": "403",
+        "name": "Swayam Prabha 20",
+        "provider": "JioTV"
+    },
+    {
+        "id": "404",
+        "name": "PM e Vidya 07",
+        "provider": "JioTV"
+    },
+    {
+        "id": "405",
+        "name": "PM e Vidya 03",
+        "provider": "JioTV"
+    },
+    {
+        "id": "406",
+        "name": "PM e Vidya 04",
+        "provider": "JioTV"
+    },
+    {
+        "id": "407",
+        "name": "PM e Vidya 05",
+        "provider": "JioTV"
+    },
+    {
+        "id": "408",
+        "name": "PM e Vidya 06",
+        "provider": "JioTV"
+    },
+    {
+        "id": "409",
+        "name": "PM e Vidya 08",
+        "provider": "JioTV"
+    },
+    {
+        "id": "410",
+        "name": "PM e Vidya 09",
+        "provider": "JioTV"
+    },
+    {
+        "id": "411",
+        "name": "PM e Vidya 10",
+        "provider": "JioTV"
+    },
+    {
+        "id": "412",
+        "name": "Wion",
+        "provider": "JioTV"
+    },
+    {
+        "id": "413",
+        "name": "Zee Cinemalu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "414",
+        "name": "Zee Yuva",
+        "provider": "JioTV"
+    },
+    {
+        "id": "415",
+        "name": "Anmol Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "417",
+        "name": "J Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "418",
+        "name": "Jaya Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "419",
+        "name": "Jaya TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "420",
+        "name": "Jaya Max",
+        "provider": "JioTV"
+    },
+    {
+        "id": "422",
+        "name": "In Goa 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "429",
+        "name": "Colors Tamil HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "440",
+        "name": "9X Jalwa",
+        "provider": "JioTV"
+    },
+    {
+        "id": "441",
+        "name": "9x Jhakaas",
+        "provider": "JioTV"
+    },
+    {
+        "id": "442",
+        "name": "Zee 24 Taas",
+        "provider": "JioTV"
+    },
+    {
+        "id": "443",
+        "name": "Asianet HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "445",
+        "name": "Zee Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "457",
+        "name": "Jalsha Movies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "459",
+        "name": "Asianet Movies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "462",
+        "name": "MNX",
+        "provider": "JioTV"
+    },
+    {
+        "id": "463",
+        "name": "Discovery HD English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "464",
+        "name": "Zee 24 Ghanta",
+        "provider": "JioTV"
+    },
+    {
+        "id": "465",
+        "name": "Jaihind tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "466",
+        "name": "Dharma Sandesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "471",
+        "name": "Sony SAB HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "472",
+        "name": "And TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "473",
+        "name": "Anmol TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "474",
+        "name": "Sony Pal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "476",
+        "name": "Sony Max HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "477",
+        "name": "MN+ HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "478",
+        "name": "Romedy Now HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "479",
+        "name": "TLC HD English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "481",
+        "name": "Epic",
+        "provider": "JioTV"
+    },
+    {
+        "id": "482",
+        "name": "Colors Cineplex",
+        "provider": "JioTV"
+    },
+    {
+        "id": "483",
+        "name": "Sony MAX2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "484",
+        "name": "Zee Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "486",
+        "name": "Bhojpuri Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "487",
+        "name": "Zee Bollywood",
+        "provider": "JioTV"
+    },
+    {
+        "id": "488",
+        "name": "Zee Action",
+        "provider": "JioTV"
+    },
+    {
+        "id": "489",
+        "name": "CNBC TV18",
+        "provider": "JioTV"
+    },
+    {
+        "id": "490",
+        "name": "CNBC Bajar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "491",
+        "name": "Mirror Now",
+        "provider": "JioTV"
+    },
+    {
+        "id": "492",
+        "name": "CNN NEWS18",
+        "provider": "JioTV"
+    },
+    {
+        "id": "493",
+        "name": "India Today",
+        "provider": "JioTV"
+    },
+    {
+        "id": "494",
+        "name": "AL Jazeera",
+        "provider": "JioTV"
+    },
+    {
+        "id": "495",
+        "name": "News X",
+        "provider": "JioTV"
+    },
+    {
+        "id": "496",
+        "name": "dw",
+        "provider": "JioTV"
+    },
+    {
+        "id": "498",
+        "name": "India news",
+        "provider": "JioTV"
+    },
+    {
+        "id": "499",
+        "name": "News Nation",
+        "provider": "JioTV"
+    },
+    {
+        "id": "501",
+        "name": "News 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "502",
+        "name": "Good News Today",
+        "provider": "JioTV"
+    },
+    {
+        "id": "503",
+        "name": "IBC24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "504",
+        "name": "Zee News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "510",
+        "name": "VIP News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "511",
+        "name": "Mh One News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "512",
+        "name": "India News UP",
+        "provider": "JioTV"
+    },
+    {
+        "id": "513",
+        "name": "India News Rajasthan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "514",
+        "name": "Sony Ten 1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "515",
+        "name": "India News MP",
+        "provider": "JioTV"
+    },
+    {
+        "id": "516",
+        "name": "India News Haryana",
+        "provider": "JioTV"
+    },
+    {
+        "id": "517",
+        "name": "Chardikla Time TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "518",
+        "name": "Sudarshan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "519",
+        "name": "Sadhna News Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "520",
+        "name": "Sansad TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "522",
+        "name": "Sansad TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "523",
+        "name": "Ten 2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "524",
+        "name": "Sony Ten 3 Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "525",
+        "name": "Sony Ten 5",
+        "provider": "JioTV"
+    },
+    {
+        "id": "527",
+        "name": "Investigation Discovery Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "528",
+        "name": "DD India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "529",
+        "name": "News18 MP Chhattisgarh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "530",
+        "name": "News18 UP Uttarakhand",
+        "provider": "JioTV"
+    },
+    {
+        "id": "531",
+        "name": "News18 Rajasthan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "533",
+        "name": "Raj Pariwar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "536",
+        "name": "DD Madhya Pradesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "538",
+        "name": "DD Rajasthan (Jaipur)",
+        "provider": "JioTV"
+    },
+    {
+        "id": "539",
+        "name": "DD Bihar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "540",
+        "name": "DD Uttar Pradesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "541",
+        "name": "Discovery Turbo",
+        "provider": "JioTV"
+    },
+    {
+        "id": "542",
+        "name": "Pogo Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "543",
+        "name": "Nick Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "544",
+        "name": "Nick Junior",
+        "provider": "JioTV"
+    },
+    {
+        "id": "545",
+        "name": "Nick Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "546",
+        "name": "Nick Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "548",
+        "name": "Nickelodeon Jr.",
+        "provider": "JioTV"
+    },
+    {
+        "id": "550",
+        "name": "Discovery Kids Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "551",
+        "name": "TEST14 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "554",
+        "name": "Discovery Kids Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "555",
+        "name": "Chintu TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "556",
+        "name": "Kochu TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "557",
+        "name": "Chutti TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "558",
+        "name": "Kushi TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "559",
+        "name": "Pogo Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "560",
+        "name": "GOOD TiMES",
+        "provider": "JioTV"
+    },
+    {
+        "id": "561",
+        "name": "Food Food",
+        "provider": "JioTV"
+    },
+    {
+        "id": "562",
+        "name": "Travelxp HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "563",
+        "name": "Kaumudy TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "565",
+        "name": "ETV Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "566",
+        "name": "Animal Planet Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "567",
+        "name": "Animal Planet English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "568",
+        "name": "Discovery Science English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "569",
+        "name": "D Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "570",
+        "name": "ETV Life",
+        "provider": "JioTV"
+    },
+    {
+        "id": "571",
+        "name": "TLC Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "572",
+        "name": "Zee UP UK",
+        "provider": "JioTV"
+    },
+    {
+        "id": "573",
+        "name": "Discovery Bengali",
+        "provider": "JioTV"
+    },
+    {
+        "id": "574",
+        "name": "TLC English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "575",
+        "name": "Discovery Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "576",
+        "name": "Discovery Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "577",
+        "name": "History TV18 HD Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "578",
+        "name": "History TV18 HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "579",
+        "name": "History TV18 HD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "580",
+        "name": "DD bharati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "583",
+        "name": "DD Kisan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "585",
+        "name": "Zing",
+        "provider": "JioTV"
+    },
+    {
+        "id": "587",
+        "name": "9XM",
+        "provider": "JioTV"
+    },
+    {
+        "id": "591",
+        "name": "E 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "592",
+        "name": "ZOOM",
+        "provider": "JioTV"
+    },
+    {
+        "id": "593",
+        "name": "Sadhna",
+        "provider": "JioTV"
+    },
+    {
+        "id": "594",
+        "name": "Aastha Bhajan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "595",
+        "name": "Prarthana Life",
+        "provider": "JioTV"
+    },
+    {
+        "id": "596",
+        "name": "Jinvani TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "597",
+        "name": "Satsang TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "598",
+        "name": "Sri Venkateshwar Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "599",
+        "name": "Disha tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "601",
+        "name": "Ishwar TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "602",
+        "name": "Paras tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "603",
+        "name": "Nambikkai",
+        "provider": "JioTV"
+    },
+    {
+        "id": "605",
+        "name": "Channel Win",
+        "provider": "JioTV"
+    },
+    {
+        "id": "606",
+        "name": "Shalom",
+        "provider": "JioTV"
+    },
+    {
+        "id": "607",
+        "name": "Subhavartha TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "608",
+        "name": "Shubhsandesh TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "609",
+        "name": "mh1 Shraddha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "611",
+        "name": "Darshan 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "612",
+        "name": "ABP Majha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "613",
+        "name": "Newslive",
+        "provider": "JioTV"
+    },
+    {
+        "id": "614",
+        "name": "ETV Andhra pradesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "615",
+        "name": "News18 Tamil nadu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "616",
+        "name": "TV9 Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "617",
+        "name": "TV9 Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "618",
+        "name": "TV9 Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "619",
+        "name": "TV9 Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "620",
+        "name": "News18 Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "623",
+        "name": "Rang",
+        "provider": "JioTV"
+    },
+    {
+        "id": "624",
+        "name": "Prag News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "625",
+        "name": "Zee Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "626",
+        "name": "Suvarna News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "627",
+        "name": "News18 Assam NE",
+        "provider": "JioTV"
+    },
+    {
+        "id": "628",
+        "name": "Zee Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "629",
+        "name": "ETV Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "630",
+        "name": "ETV Telangana",
+        "provider": "JioTV"
+    },
+    {
+        "id": "631",
+        "name": "MBC",
+        "provider": "JioTV"
+    },
+    {
+        "id": "632",
+        "name": "Sakshi tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "633",
+        "name": "DY 365",
+        "provider": "JioTV"
+    },
+    {
+        "id": "634",
+        "name": "Flower TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "635",
+        "name": "Rengoni",
+        "provider": "JioTV"
+    },
+    {
+        "id": "636",
+        "name": "Polimer News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "637",
+        "name": "North East Live",
+        "provider": "JioTV"
+    },
+    {
+        "id": "638",
+        "name": "Zee Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "639",
+        "name": "Ramdhenu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "641",
+        "name": "ABP Asmita",
+        "provider": "JioTV"
+    },
+    {
+        "id": "642",
+        "name": "VTV Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "643",
+        "name": "GS TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "646",
+        "name": "NTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "647",
+        "name": "Pratidin Time",
+        "provider": "JioTV"
+    },
+    {
+        "id": "648",
+        "name": "Mazhavil Manorama",
+        "provider": "JioTV"
+    },
+    {
+        "id": "650",
+        "name": "Raj News Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "651",
+        "name": "Raj News Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "652",
+        "name": "Zee Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "653",
+        "name": "News18 Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "654",
+        "name": "Zee Punjab Haryana HP",
+        "provider": "JioTV"
+    },
+    {
+        "id": "655",
+        "name": "News18 Punjab Haryana Himachal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "656",
+        "name": "News 9",
+        "provider": "JioTV"
+    },
+    {
+        "id": "657",
+        "name": "Zee Business",
+        "provider": "JioTV"
+    },
+    {
+        "id": "658",
+        "name": "Zee MP Chattisgarh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "659",
+        "name": "Zee Rajasthan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "661",
+        "name": "Zee Bihar Jharkhand",
+        "provider": "JioTV"
+    },
+    {
+        "id": "662",
+        "name": "Manorama News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "664",
+        "name": "Raj News Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "665",
+        "name": "HM TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "666",
+        "name": "ABN Andhra Jyothi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "667",
+        "name": "T News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "668",
+        "name": "TV 5 News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "670",
+        "name": "6 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "671",
+        "name": "Sathiyam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "672",
+        "name": "ABP Ananda",
+        "provider": "JioTV"
+    },
+    {
+        "id": "673",
+        "name": "News7 Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "675",
+        "name": "Assam Talks",
+        "provider": "JioTV"
+    },
+    {
+        "id": "676",
+        "name": "Sun News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "677",
+        "name": "Puthiya Thalimurai",
+        "provider": "JioTV"
+    },
+    {
+        "id": "678",
+        "name": "Sun Udaya Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "682",
+        "name": "Sun Life",
+        "provider": "JioTV"
+    },
+    {
+        "id": "683",
+        "name": "Raj Digital Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "684",
+        "name": "Sun Gemini Life",
+        "provider": "JioTV"
+    },
+    {
+        "id": "685",
+        "name": "Zee Bangla Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "686",
+        "name": "Alankar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "687",
+        "name": "News Time TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "689",
+        "name": "Zee Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "690",
+        "name": "DD Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "691",
+        "name": "Saam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "692",
+        "name": "ETV Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "693",
+        "name": "News18 Bihar Jharkhand",
+        "provider": "JioTV"
+    },
+    {
+        "id": "694",
+        "name": "News18 Delhi NCR JK",
+        "provider": "JioTV"
+    },
+    {
+        "id": "695",
+        "name": "DD Sahayadri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "696",
+        "name": "News18 Odia",
+        "provider": "JioTV"
+    },
+    {
+        "id": "697",
+        "name": "Sony aath",
+        "provider": "JioTV"
+    },
+    {
+        "id": "698",
+        "name": "Aakash Aath",
+        "provider": "JioTV"
+    },
+    {
+        "id": "699",
+        "name": "DD Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "701",
+        "name": "Dangal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "702",
+        "name": "DD Oriya",
+        "provider": "JioTV"
+    },
+    {
+        "id": "703",
+        "name": "Tarang",
+        "provider": "JioTV"
+    },
+    {
+        "id": "704",
+        "name": "OTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "705",
+        "name": "Polimer TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "706",
+        "name": "DD Saptagiri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "707",
+        "name": "Raj TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "708",
+        "name": "Makkal TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "709",
+        "name": "Adithya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "710",
+        "name": "Kairali TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "712",
+        "name": "DD urdu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "713",
+        "name": "DD9 chandana (kannada)",
+        "provider": "JioTV"
+    },
+    {
+        "id": "714",
+        "name": "DD Girnar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "715",
+        "name": "DD Punjabi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "716",
+        "name": "DD Kashir",
+        "provider": "JioTV"
+    },
+    {
+        "id": "717",
+        "name": "News18 Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "718",
+        "name": "Kanak News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "719",
+        "name": "Nepal one",
+        "provider": "JioTV"
+    },
+    {
+        "id": "722",
+        "name": "Zee Sarthak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "723",
+        "name": "Amrita TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "724",
+        "name": "Zee Delhi NCR Haryana",
+        "provider": "JioTV"
+    },
+    {
+        "id": "725",
+        "name": "Kairali News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "726",
+        "name": "DD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "727",
+        "name": "Vasanth TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "728",
+        "name": "Salaam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "729",
+        "name": "Sun Gemini Comedy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "731",
+        "name": "Kairali WE TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "732",
+        "name": "9X Tashan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "733",
+        "name": "Sun Udaya Comedy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "734",
+        "name": "Vissa TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "735",
+        "name": "Sangeet Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "737",
+        "name": "Raj Music Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "738",
+        "name": "Fakt Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "739",
+        "name": "Raj Music Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "740",
+        "name": "Sangeet Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "741",
+        "name": "Sangeet Bhojpuri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "742",
+        "name": "mh1 (Music)",
+        "provider": "JioTV"
+    },
+    {
+        "id": "743",
+        "name": "Raj Music Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "744",
+        "name": "Sun Udaya Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "747",
+        "name": "Sun Surya Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "748",
+        "name": "Raj Musix",
+        "provider": "JioTV"
+    },
+    {
+        "id": "751",
+        "name": "Tarang Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "755",
+        "name": "Colors Marathi HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "756",
+        "name": "Colors Bangla HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "757",
+        "name": "Colors Kannada HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "760",
+        "name": "Maa Movies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "762",
+        "name": "Sony Pix HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "764",
+        "name": "Channel News Asia International",
+        "provider": "JioTV"
+    },
+    {
+        "id": "765",
+        "name": "Jonack",
+        "provider": "JioTV"
+    },
+    {
+        "id": "767",
+        "name": "Raj News 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "768",
+        "name": "Jan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "769",
+        "name": "V6 News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "770",
+        "name": "Kashish News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "772",
+        "name": "CVR OM Spiritual",
+        "provider": "JioTV"
+    },
+    {
+        "id": "773",
+        "name": "Public Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "774",
+        "name": "CVR Health",
+        "provider": "JioTV"
+    },
+    {
+        "id": "775",
+        "name": "Vanitha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "776",
+        "name": "Bhakti TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "777",
+        "name": "Aradhana TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "778",
+        "name": "Public TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "779",
+        "name": "Prameya News 7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "780",
+        "name": "Mathrubhumi News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "781",
+        "name": "Kalinga TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "782",
+        "name": "Sandesh News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "783",
+        "name": "K News India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "784",
+        "name": "CVR News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "785",
+        "name": "Colors Super",
+        "provider": "JioTV"
+    },
+    {
+        "id": "786",
+        "name": "Kappa TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "787",
+        "name": "CVR English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "788",
+        "name": "India Voice",
+        "provider": "JioTV"
+    },
+    {
+        "id": "789",
+        "name": "JK 24x7 News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "790",
+        "name": "I News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "791",
+        "name": "Taaza TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "792",
+        "name": "News State UK UP",
+        "provider": "JioTV"
+    },
+    {
+        "id": "794",
+        "name": "Peace of Mind",
+        "provider": "JioTV"
+    },
+    {
+        "id": "795",
+        "name": "testa",
+        "provider": "JioTV"
+    },
+    {
+        "id": "796",
+        "name": "Peppers TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "801",
+        "name": "Divya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "803",
+        "name": "Tunes 6",
+        "provider": "JioTV"
+    },
+    {
+        "id": "804",
+        "name": "Samachar Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "807",
+        "name": "Gulistan News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "808",
+        "name": "Hindi Khabar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "810",
+        "name": "Janam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "814",
+        "name": "Travelxp Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "815",
+        "name": "Sonic Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "816",
+        "name": "Cartoon Network Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "817",
+        "name": "Cartoon Network Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "821",
+        "name": "Sony BBC Earth HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "823",
+        "name": "Sony BBC Earth SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "824",
+        "name": "Puthu Yugam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "826",
+        "name": "Malaimurasu Seithigal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "828",
+        "name": "Shubh TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "829",
+        "name": "Sri Sankara",
+        "provider": "JioTV"
+    },
+    {
+        "id": "830",
+        "name": "Thanthi TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "831",
+        "name": "Living India News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "832",
+        "name": "10 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "835",
+        "name": "Angel TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "837",
+        "name": "Euro News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "838",
+        "name": "France 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "842",
+        "name": "Jeevan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "843",
+        "name": "Madhimugam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "844",
+        "name": "Mazhavil Manorama HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "846",
+        "name": "MKN News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "850",
+        "name": "News India 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "851",
+        "name": "SMBC TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "852",
+        "name": "Sony BBC Earth HD English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "853",
+        "name": "Sony BBC Earth HD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "854",
+        "name": "Sony BBC Earth HD Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "855",
+        "name": "Total TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "856",
+        "name": "Vedic TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "857",
+        "name": "Vendhar TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "858",
+        "name": "Republic TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "872",
+        "name": "Sony Yay Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "873",
+        "name": "Sony Yay Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "874",
+        "name": "Sony Yay Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "875",
+        "name": "Eurosport HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "876",
+        "name": "Times Now World",
+        "provider": "JioTV"
+    },
+    {
+        "id": "877",
+        "name": "MNX HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "879",
+        "name": "Hare krsna",
+        "provider": "JioTV"
+    },
+    {
+        "id": "880",
+        "name": "Janta TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "882",
+        "name": "News11",
+        "provider": "JioTV"
+    },
+    {
+        "id": "883",
+        "name": "Oscar Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "885",
+        "name": "TV5 Monde",
+        "provider": "JioTV"
+    },
+    {
+        "id": "886",
+        "name": "Lakshya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "887",
+        "name": "Vedant Ras Swar Shree",
+        "provider": "JioTV"
+    },
+    {
+        "id": "891",
+        "name": "Sony Ten 2 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "892",
+        "name": "Sony Ten 3 HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "894",
+        "name": "KTV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "895",
+        "name": "Sun Music HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "896",
+        "name": "Sun TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "897",
+        "name": "Sun Gemini HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "898",
+        "name": "Sun Gemini Music HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "899",
+        "name": "Sun Gemini Movies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "900",
+        "name": "Sun Surya HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "901",
+        "name": "Sun Udaya HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "903",
+        "name": "Only Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "904",
+        "name": "Sanjha TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "906",
+        "name": "Desi Channel",
+        "provider": "JioTV"
+    },
+    {
+        "id": "907",
+        "name": "GoodNews Channel",
+        "provider": "JioTV"
+    },
+    {
+        "id": "908",
+        "name": "Newslive Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "910",
+        "name": "Media One TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "915",
+        "name": "Khabar Fast",
+        "provider": "JioTV"
+    },
+    {
+        "id": "916",
+        "name": "TV 100",
+        "provider": "JioTV"
+    },
+    {
+        "id": "917",
+        "name": "APN News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "918",
+        "name": "Bharat Samachar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "919",
+        "name": "Anjan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "921",
+        "name": "Prime News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "923",
+        "name": "R.Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "924",
+        "name": "Mercy TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "927",
+        "name": "First India News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "929",
+        "name": "Zee 24 Kalak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "931",
+        "name": "Star Bharat HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "933",
+        "name": "4 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "934",
+        "name": "Divya Vani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "936",
+        "name": "News 1 India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "937",
+        "name": "Sai TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "939",
+        "name": "Bhakti Sagar TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "944",
+        "name": "Mantavya News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "946",
+        "name": "Pitaara",
+        "provider": "JioTV"
+    },
+    {
+        "id": "950",
+        "name": "R Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "952",
+        "name": "Garv Punjabi Gurbani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "953",
+        "name": "Propex TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "955",
+        "name": "Hindu Dharmam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "956",
+        "name": "TV 5 Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "957",
+        "name": "INH 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "958",
+        "name": "DNN",
+        "provider": "JioTV"
+    },
+    {
+        "id": "959",
+        "name": "JUS PUNJABI HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "961",
+        "name": "JUS ONE HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "962",
+        "name": "Boogle Bollywood",
+        "provider": "JioTV"
+    },
+    {
+        "id": "964",
+        "name": "Om Shanti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "965",
+        "name": "News18 Kerala",
+        "provider": "JioTV"
+    },
+    {
+        "id": "970",
+        "name": "Win TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "971",
+        "name": "Vaanavil TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "972",
+        "name": "Sarv Dharam Sangam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "975",
+        "name": "Jantantra",
+        "provider": "JioTV"
+    },
+    {
+        "id": "977",
+        "name": "Calvary",
+        "provider": "JioTV"
+    },
+    {
+        "id": "978",
+        "name": "TEST1 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "979",
+        "name": "TEST2 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "980",
+        "name": "Swayam Prabha 01",
+        "provider": "JioTV"
+    },
+    {
+        "id": "981",
+        "name": "Swayam Prabha 02",
+        "provider": "JioTV"
+    },
+    {
+        "id": "982",
+        "name": "Swayam Prabha 03",
+        "provider": "JioTV"
+    },
+    {
+        "id": "983",
+        "name": "Swayam Prabha 08",
+        "provider": "JioTV"
+    },
+    {
+        "id": "984",
+        "name": "Swayam Prabha 04",
+        "provider": "JioTV"
+    },
+    {
+        "id": "985",
+        "name": "Swayam Prabha 07",
+        "provider": "JioTV"
+    },
+    {
+        "id": "986",
+        "name": "Swayam Prabha 05",
+        "provider": "JioTV"
+    },
+    {
+        "id": "987",
+        "name": "Swayam Prabha 06",
+        "provider": "JioTV"
+    },
+    {
+        "id": "988",
+        "name": "Swayam Prabha 09",
+        "provider": "JioTV"
+    },
+    {
+        "id": "989",
+        "name": "Swayam Prabha 10",
+        "provider": "JioTV"
+    },
+    {
+        "id": "990",
+        "name": "Swayam Prabha 11",
+        "provider": "JioTV"
+    },
+    {
+        "id": "991",
+        "name": "Swayam Prabha 12",
+        "provider": "JioTV"
+    },
+    {
+        "id": "992",
+        "name": "Swayam Prabha 13",
+        "provider": "JioTV"
+    },
+    {
+        "id": "993",
+        "name": "Swayam Prabha 14",
+        "provider": "JioTV"
+    },
+    {
+        "id": "994",
+        "name": "Swayam Prabha 16",
+        "provider": "JioTV"
+    },
+    {
+        "id": "995",
+        "name": "Swayam Prabha 15",
+        "provider": "JioTV"
+    },
+    {
+        "id": "996",
+        "name": "Swayam Prabha 17",
+        "provider": "JioTV"
+    },
+    {
+        "id": "997",
+        "name": "Swayam Prabha 21",
+        "provider": "JioTV"
+    },
+    {
+        "id": "998",
+        "name": "Swayam Prabha 22",
+        "provider": "JioTV"
+    },
+    {
+        "id": "999",
+        "name": "Swayam Prabha 18",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1059",
+        "name": "TEST3 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1061",
+        "name": "TEST5 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1062",
+        "name": "TEST6 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1069",
+        "name": "Vande Gujarat 1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1070",
+        "name": "Vande Gujarat 2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1071",
+        "name": "Vande Gujarat 4",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1075",
+        "name": "Ayush TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1077",
+        "name": "Sharnam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1078",
+        "name": "Soham TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1079",
+        "name": "Cartoon Network HD+ English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1080",
+        "name": "Cartoon Network HD+ Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1081",
+        "name": "Cartoon Network HD+ Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1082",
+        "name": "Vande Gujarat 3",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1083",
+        "name": "Vande Gujarat 5",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1084",
+        "name": "Vande Gujarat 6",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1085",
+        "name": "Vande Gujarat 7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1086",
+        "name": "Vande Gujarat 8",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1087",
+        "name": "Vande Gujarat 9",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1088",
+        "name": "Vande Gujarat 10",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1089",
+        "name": "Vande Gujarat 11",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1090",
+        "name": "Vande Gujarat 12",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1091",
+        "name": "Vande Gujarat 13",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1092",
+        "name": "Vande Gujarat 14",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1093",
+        "name": "Vande Gujarat 15",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1094",
+        "name": "Vande Gujarat 16",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1103",
+        "name": "PEACE MUSIC",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1104",
+        "name": "Star Movies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1110",
+        "name": "Star Movies Select HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1112",
+        "name": "Maa HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1113",
+        "name": "Star Gold Select HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1129",
+        "name": "Maa Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1132",
+        "name": "Star Plus HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1136",
+        "name": "Star Utsav Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1137",
+        "name": "Maa Gold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1139",
+        "name": "Asianet Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1140",
+        "name": "Suvarna Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1143",
+        "name": "Star Utsav",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1145",
+        "name": "MTV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1146",
+        "name": "Sony Marathi SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1148",
+        "name": "TEST8 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1151",
+        "name": "Rangamanch",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1158",
+        "name": "Colors Infinity HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1159",
+        "name": "Tulja Bhavani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1163",
+        "name": "JioGames HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1170",
+        "name": "PTC News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1171",
+        "name": "PTC Punjabi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1172",
+        "name": "PTC Chak De",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1174",
+        "name": "Fateh TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1175",
+        "name": "Awakening",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1179",
+        "name": "Bansal News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1185",
+        "name": "Swadesh News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1186",
+        "name": "Kartavya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1187",
+        "name": "Valam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1189",
+        "name": "PTC Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1190",
+        "name": "PTC Punjabi Gold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1191",
+        "name": "PTC Simran",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1192",
+        "name": "Brit Asia",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1193",
+        "name": "Hare Krsna Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1205",
+        "name": "ABP Ganga",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1209",
+        "name": "Kalaignar TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1210",
+        "name": "Kalaignar Seithigal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1212",
+        "name": "Hare Krsna Pravachan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1219",
+        "name": "Animal Planet HD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1220",
+        "name": "Rajyoga TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1221",
+        "name": "Rajyoga TV Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1224",
+        "name": "Nimbark TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1226",
+        "name": "Nick HD+",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1227",
+        "name": "Digishala",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1229",
+        "name": "TEST9 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1232",
+        "name": "Hi Dost!",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1240",
+        "name": "TEST10 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1241",
+        "name": "God TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1242",
+        "name": "Sonic Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1243",
+        "name": "Sonic Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1244",
+        "name": "Nick Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1250",
+        "name": "Twenty Four News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1251",
+        "name": "TV9 Bharatvarsh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1252",
+        "name": "Tehzeeb TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1254",
+        "name": "Aastha Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1255",
+        "name": "Aastha Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1256",
+        "name": "Aastha Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1257",
+        "name": "Surya Samachar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1260",
+        "name": "Ctvn Akd Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1261",
+        "name": "Calcutta News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1263",
+        "name": "BRK News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1264",
+        "name": "Kolkata TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1265",
+        "name": "Global Sanjh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1273",
+        "name": "Gomantak TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1274",
+        "name": "Studio One",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1278",
+        "name": "Prarthana Bhawan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1284",
+        "name": "Vignesh TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1286",
+        "name": "Insync",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1287",
+        "name": "ANB News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1291",
+        "name": "ABP Sanjha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1293",
+        "name": "Lokshahi News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1294",
+        "name": "Eurosport",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1295",
+        "name": "B4U Kadak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1296",
+        "name": "B4U Bhojpuri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1315",
+        "name": "HHDL",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1319",
+        "name": "Zee Cafe HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1322",
+        "name": "And Flix HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1324",
+        "name": "Colors Gujarati Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1325",
+        "name": "Colors Infinity SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1326",
+        "name": "Colors Marathi SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1328",
+        "name": "DD Arunprabha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1329",
+        "name": "DD Gyandarshan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1332",
+        "name": "Nat Geo Wild HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1335",
+        "name": "National Geographic HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1338",
+        "name": "RT India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1340",
+        "name": "Nick Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1341",
+        "name": "Nick Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1342",
+        "name": "Nick Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1344",
+        "name": "Sonic Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1345",
+        "name": "Sonic Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1346",
+        "name": "Sonic Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1351",
+        "name": "Zee TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1354",
+        "name": "Zee Telugu HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1355",
+        "name": "ALI TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1356",
+        "name": "Zee Tamil HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1358",
+        "name": "Zee Talkies HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1359",
+        "name": "Big Magic",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1360",
+        "name": "Zee Marathi HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1362",
+        "name": "Zee Kannada HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1363",
+        "name": "Zee Cinemalu HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1364",
+        "name": "Zee Cafe SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1368",
+        "name": "Colors SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1369",
+        "name": "Colors Bangla SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1370",
+        "name": "Colors Kannada SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1371",
+        "name": "Colors Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1373",
+        "name": "Disney Channel",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1374",
+        "name": "Disney Junior",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1375",
+        "name": "Disney International HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1388",
+        "name": "Goodness",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1391",
+        "name": "Hungama",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1392",
+        "name": "Super Hungama",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1393",
+        "name": "Sony Wah",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1394",
+        "name": "Jai Maharashtra",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1396",
+        "name": "Set SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1401",
+        "name": "Romedy Now",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1403",
+        "name": "Republic Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1405",
+        "name": "NHK World Japan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1407",
+        "name": "Sai Leela",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1408",
+        "name": "Reporter TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1410",
+        "name": "PM e Vidya 11",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1411",
+        "name": "SongDew TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1414",
+        "name": "Prati Shirdi Saibaba",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1415",
+        "name": "Ganga Darshan Varanasi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1417",
+        "name": "SVBC2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1418",
+        "name": "Ichhapuran Balaji Rajasthan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1426",
+        "name": "Santvani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1427",
+        "name": "Nandighosha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1429",
+        "name": "KITE VICTERS",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1440",
+        "name": "Krishna Vani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1450",
+        "name": "Colors Cineplex Superhit",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1452",
+        "name": "Shemaroo MarathiBana",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1453",
+        "name": "Balle Balle TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1454",
+        "name": "Shiksha TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1455",
+        "name": "Janapriyam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1458",
+        "name": "Gurkibani",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1471",
+        "name": "History TV18",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1475",
+        "name": "TEST11 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1476",
+        "name": "TEST12 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1477",
+        "name": "Colors Cineplex HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1481",
+        "name": "Argus News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1514",
+        "name": "Kannur One",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1515",
+        "name": "News J",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1516",
+        "name": "DD Yadagiri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1518",
+        "name": "Moon TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1525",
+        "name": "TEST13 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1527",
+        "name": "Haryanvi Hits",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1528",
+        "name": "Network 10",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1532",
+        "name": "PM e Vidya 12",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1537",
+        "name": "RadheKrishna TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1543",
+        "name": "Subharti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1545",
+        "name": "Punjab School TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1549",
+        "name": "Dharm Granth TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1552",
+        "name": "Malanadu TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1554",
+        "name": "Sanatan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1555",
+        "name": "News First",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1560",
+        "name": "35mm",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1561",
+        "name": "Sristi TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1568",
+        "name": "Atmadarshan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1598",
+        "name": "FTV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1605",
+        "name": "Bangla Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1607",
+        "name": "Manav Dharam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1632",
+        "name": "Colors Kannada Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1633",
+        "name": "Public Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1634",
+        "name": "Siri Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1635",
+        "name": "News State MPCG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1641",
+        "name": "Zee Keralam HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1643",
+        "name": "Harvest TV 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1644",
+        "name": "Powervision TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1647",
+        "name": "MK Six",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1655",
+        "name": "Madha TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1657",
+        "name": "Colors Bangla Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1662",
+        "name": "Sun Surya Comedy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1664",
+        "name": "7S Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1665",
+        "name": "ETV Cinema HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1666",
+        "name": "Safari TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1667",
+        "name": "Rongeen TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1668",
+        "name": "And Xplor HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1669",
+        "name": "Sun Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1690",
+        "name": "BVTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1691",
+        "name": "Zee Classic",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1692",
+        "name": "Badakhabar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1697",
+        "name": "FM News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1698",
+        "name": "IND 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1699",
+        "name": "ANN News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1705",
+        "name": "Shri Hingulambika Devi Temple",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1706",
+        "name": "Shri Mangal Dev Grah Temple",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1728",
+        "name": "Anaadi TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1733",
+        "name": "ND 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1735",
+        "name": "TV9 Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1736",
+        "name": "LUXE TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1738",
+        "name": "Hosanna TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1740",
+        "name": "Purnima TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1742",
+        "name": "Sanskrit Ganga",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1743",
+        "name": "Hornbill TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1746",
+        "name": "Zee Power HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1747",
+        "name": "India News Gujarat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1751",
+        "name": "Zee Punjabi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1754",
+        "name": "Sun Surya Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1757",
+        "name": "NK TV Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1762",
+        "name": "Channel Vision",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1763",
+        "name": "Colors Cineplex Bollywood",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1764",
+        "name": "Dada Bhagwan Foundation",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1772",
+        "name": "Sony Ten 4 HD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1773",
+        "name": "Sony Ten 4 HD Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1774",
+        "name": "Sony Ten 4 Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1775",
+        "name": "Sony Ten 4 Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1780",
+        "name": "HooplaKidz TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1788",
+        "name": "Yeshuaa TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1789",
+        "name": "Dada Bhagwan Foundation Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1794",
+        "name": "Mangalmay Live",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1797",
+        "name": "DA News Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1798",
+        "name": "Pasand",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1799",
+        "name": "Studio Yuva",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1817",
+        "name": "NEWS 24 MPCG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1826",
+        "name": "Swaralasika Sangeetalaya",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1834",
+        "name": "Green Chillies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1839",
+        "name": "And Pictures",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1847",
+        "name": "Z10 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1850",
+        "name": "SVBC",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1853",
+        "name": "News11 Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1854",
+        "name": "STV Haryana News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1855",
+        "name": "NL TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1858",
+        "name": "SVBC3",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1859",
+        "name": "SVBC4",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1868",
+        "name": "Punjab Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1871",
+        "name": "7X Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1883",
+        "name": "Pogo Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1885",
+        "name": "Kripa TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1886",
+        "name": "Sansad TV Rajya Sabha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1891",
+        "name": "KTV Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1896",
+        "name": "News Flash",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1901",
+        "name": "Adhyatma TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1906",
+        "name": "Times Now Navbharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1907",
+        "name": "ET Now Swadesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1925",
+        "name": "MH1 Dil Se",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1954",
+        "name": "News Tamil 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1955",
+        "name": "Foodxp",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1956",
+        "name": "Sidharth TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1957",
+        "name": "Sidharth Gold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1958",
+        "name": "Sidharth Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1961",
+        "name": "Shemaroo TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1962",
+        "name": "Amar Bangla TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1967",
+        "name": "PMC Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1973",
+        "name": "ETV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1974",
+        "name": "Gujarat 1st 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1975",
+        "name": "PMC Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1976",
+        "name": "BBC Cbeebies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1977",
+        "name": "Zee Bangla HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1984",
+        "name": "Star Sports 2 Hindi HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1985",
+        "name": "Star Sports 2 Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1998",
+        "name": "Star Sports Khel",
+        "provider": "JioTV"
+    },
+    {
+        "id": "1999",
+        "name": "Raftaar Media",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2001",
+        "name": "PlusTest2 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2002",
+        "name": "Aadinath TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2003",
+        "name": "3.0 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2004",
+        "name": "Shekinah TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2017",
+        "name": "Munsif TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2021",
+        "name": "HNN 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2022",
+        "name": "Asom Live 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2024",
+        "name": "And TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2028",
+        "name": "Sadvidya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2029",
+        "name": "Aaryaa Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2031",
+        "name": "Fashion India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2064",
+        "name": "Merchant Records",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2077",
+        "name": "Gangaur",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2079",
+        "name": "Bharat 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2081",
+        "name": "TV27 News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2082",
+        "name": "22Scope News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2184",
+        "name": "U Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2187",
+        "name": "Swatantra News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2189",
+        "name": "Aaryaa Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2224",
+        "name": "India News Punjab",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2225",
+        "name": "TV24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2229",
+        "name": "Bhojpuri Junction",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2252",
+        "name": "Desi Music Station",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2256",
+        "name": "Zee Thirai",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2258",
+        "name": "Animax",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2322",
+        "name": "Divyalok TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2325",
+        "name": "Punjabi Melodies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2326",
+        "name": "Firstpost",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2327",
+        "name": "Lionsgate Play",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2328",
+        "name": "CyberPeace TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2353",
+        "name": "Bharat Express",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2424",
+        "name": "Sun Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2434",
+        "name": "M Nadu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2435",
+        "name": "Spondon",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2436",
+        "name": "Prime 9 News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2437",
+        "name": "Wild Earth",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2686",
+        "name": "Jyothishavartha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2732",
+        "name": "Vistara News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2741",
+        "name": "Shri Disha Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2742",
+        "name": "Zee Kannada News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2743",
+        "name": "Power TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2750",
+        "name": "Saga Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2751",
+        "name": "Saga Music Haryanvi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2752",
+        "name": "Ghaint Punjab",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2753",
+        "name": "YRF Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2754",
+        "name": "Sikh Ratnavali",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2757",
+        "name": "Zee Zest HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2759",
+        "name": "DD North East",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2761",
+        "name": "Anmol Cinema 2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2764",
+        "name": "News State Bihar Jharkhand",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2765",
+        "name": "BSTV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2766",
+        "name": "BRAVE TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2768",
+        "name": "Jothi TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2770",
+        "name": "Har Khabar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2771",
+        "name": "Sadhna News MP CG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2772",
+        "name": "India Daily 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2773",
+        "name": "Aaj Ki Khabar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2774",
+        "name": "Power Kids TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2775",
+        "name": "Grace TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2777",
+        "name": "Asian News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2778",
+        "name": "Tabbar Hits",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2779",
+        "name": "Red Bull TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2780",
+        "name": "R Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2782",
+        "name": "ABC Australia",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2783",
+        "name": "Big TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2784",
+        "name": "ISKCON Bangalore",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2832",
+        "name": "Sony Max HD EPG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2834",
+        "name": "Sony MAX2 EPG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2835",
+        "name": "Sony Wah EPG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2852",
+        "name": "Star Sports 2 Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2853",
+        "name": "Star Sports 2 Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2854",
+        "name": "KCM",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2862",
+        "name": "Mahaa News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2916",
+        "name": "Daily Post News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2917",
+        "name": "Sadhna Gold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2918",
+        "name": "WPN World Punjabi News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2932",
+        "name": "99 TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2933",
+        "name": "NK TV Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2934",
+        "name": "Punjabi Hits",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2935",
+        "name": "Pudhari News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2936",
+        "name": "Oye Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2947",
+        "name": "Jeewan Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2954",
+        "name": "TV45",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2956",
+        "name": "ETV Plus HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2957",
+        "name": "Public First",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2958",
+        "name": "Tamilan Television",
+        "provider": "JioTV"
+    },
+    {
+        "id": "2962",
+        "name": "NoFilterNeha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3004",
+        "name": "Velicham Tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3005",
+        "name": "Rupashi Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3006",
+        "name": "Dhoom Music Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3007",
+        "name": "AMV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3008",
+        "name": "Maya Tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3011",
+        "name": "Lancs TV HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3017",
+        "name": "News Hour",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3018",
+        "name": "News 360",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3022",
+        "name": "Unique TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3024",
+        "name": "India TV Yoga Channel",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3025",
+        "name": "India TV Aap Ki Adalat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3026",
+        "name": "India TV Speed News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3028",
+        "name": "BH Style Icons Awards",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3029",
+        "name": "Bollywood Masala",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3031",
+        "name": "Zee Telugu News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3032",
+        "name": "Pogo Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3033",
+        "name": "Pogo Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3034",
+        "name": "Pogo Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3035",
+        "name": "Cartoon Network Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3036",
+        "name": "Cartoon Network Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3037",
+        "name": "Kalyan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3038",
+        "name": "Amritwani TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3039",
+        "name": "Garvi Gujarat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3040",
+        "name": "Zee Keralam SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3043",
+        "name": "Prime Asia HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3045",
+        "name": "Tamil Janam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3046",
+        "name": "& flix SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3047",
+        "name": "Zee Picchar SD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3048",
+        "name": "BVG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3051",
+        "name": "Zee Thirai HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3053",
+        "name": "TNP News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3058",
+        "name": "News Capital Gujarat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3059",
+        "name": "Thanthi One",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3068",
+        "name": "Bharat Update",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3069",
+        "name": "Captain",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3070",
+        "name": "Vistaar News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3074",
+        "name": "Shemaroo Filmy Gaane",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3075",
+        "name": "Shemaroo Bollywood",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3083",
+        "name": "Sundrani TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3084",
+        "name": "Taiwan Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3085",
+        "name": "Sach Bedhadak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3086",
+        "name": "NAXATRA SAMACHAR PLUS",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3087",
+        "name": "Sai TV Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3088",
+        "name": "Sun Neo HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3089",
+        "name": "Sangam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3091",
+        "name": "RedBull UltraView",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3092",
+        "name": "RedBull 360degree",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3093",
+        "name": "RedBull Cam01",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3094",
+        "name": "RedBull Cam02",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3095",
+        "name": "NDTV Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3096",
+        "name": "Star Gold 2 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3097",
+        "name": "Star Gold Romance",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3098",
+        "name": "Star Gold Thrills",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3100",
+        "name": "Star Pravah Picture HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3107",
+        "name": "Bhakthi Siri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3108",
+        "name": "Garvi Gujarat Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3112",
+        "name": "Sanmarg Tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3115",
+        "name": "Jay Jagannath",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3118",
+        "name": "DD Swayam Prabha 23",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3119",
+        "name": "DD Swayam Prabha 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3120",
+        "name": "DD Swayam Prabha 25",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3121",
+        "name": "DD Swayam Prabha 26",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3122",
+        "name": "DD Swayam Prabha 27",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3123",
+        "name": "DD Swayam Prabha 28",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3124",
+        "name": "DD Swayam Prabha 29",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3125",
+        "name": "DD Swayam Prabha 30",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3126",
+        "name": "DD Swayam Prabha 31",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3127",
+        "name": "DD Swayam Prabha 32",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3128",
+        "name": "DD Swayam Prabha 33",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3129",
+        "name": "DD Swayam Prabha 34",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3130",
+        "name": "DD Swayam Prabha 35",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3131",
+        "name": "DD Swayam Prabha 36",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3132",
+        "name": "DD Swayam Prabha 37",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3133",
+        "name": "DD Swayam Prabha 38",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3134",
+        "name": "DD Swayam Prabha 39",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3135",
+        "name": "DD Swayam Prabha 40",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3136",
+        "name": "DD Sathee 1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3137",
+        "name": "DD Sathee 2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3138",
+        "name": "DD Sathee 3",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3139",
+        "name": "DD Sathee 4",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3140",
+        "name": "DD Sathee 5",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3141",
+        "name": "DD Sathee 6",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3142",
+        "name": "DD Sathee 7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3143",
+        "name": "Mahaa Max",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3145",
+        "name": "DD Sathee 8",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3146",
+        "name": "All Women's Sports Network",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3147",
+        "name": "RedBull Cam03",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3148",
+        "name": "Live India News 24",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3152",
+        "name": "News State Punjab Haryana Himachal",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3154",
+        "name": "Bloomberg Originals",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3155",
+        "name": "Bloomberg TV+",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3162",
+        "name": "Prabhu Vani Tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3166",
+        "name": "Live Times",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3174",
+        "name": "Malyalam Naaptol",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3175",
+        "name": "Tamil Naaptol",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3176",
+        "name": "Telugu Naaptol",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3177",
+        "name": "Adhya Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3178",
+        "name": "Ishwar Vani Tv",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3182",
+        "name": "Animal Planet HD Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3183",
+        "name": "Animal Planet Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3184",
+        "name": "News Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3187",
+        "name": "Prabhu Sandesh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3201",
+        "name": "Sana TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3204",
+        "name": "Penta TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3205",
+        "name": "Taaza Khabrein on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3206",
+        "name": "Pramukha Suddi on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3207",
+        "name": "Ungal Seithigal on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3208",
+        "name": "Itivali Varthalu on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3209",
+        "name": "Taajya Baatmya on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3210",
+        "name": "Tatka Sangbad on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3211",
+        "name": "Taaza Samachar on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3212",
+        "name": "Puthiya Varthakal on JioNews",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3213",
+        "name": "Gusto TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3214",
+        "name": "Vertent Samachar Plus 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3216",
+        "name": "Krishi Pitaara",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3217",
+        "name": "NE News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3221",
+        "name": "Sri Naga Sai Mandir",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3223",
+        "name": "Shark Tank India S5",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3231",
+        "name": "Apex Entertainment",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3232",
+        "name": "Sadhguru Television Dolby",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3236",
+        "name": "Bhakti Dhara",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3237",
+        "name": "Namma Bangalore",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3238",
+        "name": "Yoga for Beginners",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3239",
+        "name": "Mahaa Bhakthi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3240",
+        "name": "News X World",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3241",
+        "name": "Nation 27",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3243",
+        "name": "Pickleball Now",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3244",
+        "name": "Sanatan Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3246",
+        "name": "Sabka Bazaar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3247",
+        "name": "Manage Stress",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3248",
+        "name": "Weight Loss Yoga",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3249",
+        "name": "Guided Meditation",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3250",
+        "name": "Flexibility Yoga",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3251",
+        "name": "Restful Sleep",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3252",
+        "name": "Muscle Strength",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3259",
+        "name": "Pocket Films",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3260",
+        "name": "Sanatan Sandesh TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3262",
+        "name": "Jio Adipoli Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3263",
+        "name": "VROTT",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3264",
+        "name": "Jio Semma Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3266",
+        "name": "Vijay Super HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3267",
+        "name": "Star Kiran",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3269",
+        "name": "Vijay Takkar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3279",
+        "name": "OM TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3281",
+        "name": "Mahua Play",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3284",
+        "name": "Rozana Spokesman 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3285",
+        "name": "Stingray Naturescape",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3286",
+        "name": "ZenLIFE by Stingray",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3287",
+        "name": "Holidaycapes by Stingray",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3288",
+        "name": "Movie Music by Stingray",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3289",
+        "name": "Qello Concerts by Stingray",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3290",
+        "name": "Stingray Djazz",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3294",
+        "name": "Anand TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3295",
+        "name": "Mahotsav TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3297",
+        "name": "Amar Digital TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3298",
+        "name": "Mon TV Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3300",
+        "name": "R TV Bhakthi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3302",
+        "name": "T SAT Nipuna",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3304",
+        "name": "T SAT Vidya",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3313",
+        "name": "LOVEWORLD TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3314",
+        "name": "Gujarat  Wild TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3319",
+        "name": "ZB Music",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3320",
+        "name": "ZB Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3321",
+        "name": "ZB Cartoon",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3322",
+        "name": "ZB Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3323",
+        "name": "Stingray The Spa",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3324",
+        "name": "Stingray Todays K-Pop",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3325",
+        "name": "Stingray Easy Listening",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3327",
+        "name": "Stingray 2000s",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3331",
+        "name": "STV Bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3333",
+        "name": "Popli Live",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3334",
+        "name": "Sanatan Vedic TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3336",
+        "name": "NH BollyFlix",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3338",
+        "name": "NH BollyGold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3343",
+        "name": "NH BollyRaga",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3345",
+        "name": "Superfine Films",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3346",
+        "name": "Yahoo Finance",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3354",
+        "name": "Fast1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3356",
+        "name": "Rock TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3357",
+        "name": "Dharsan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3358",
+        "name": "Bhagyam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3359",
+        "name": "Sana Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3360",
+        "name": "Subin TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3361",
+        "name": "Shri Shyam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3368",
+        "name": "News TV India",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3369",
+        "name": "TV13 Gujarati",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3370",
+        "name": "Gospel TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3372",
+        "name": "Sony LIV Sports 1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3373",
+        "name": "Sony LIV Sports 2",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3374",
+        "name": "Sony LIV Sports 3",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3381",
+        "name": "Brio TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3382",
+        "name": "EPIC TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3383",
+        "name": "Epic Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3384",
+        "name": "EPIC Bhojpuri",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3385",
+        "name": "Epic Kids",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3389",
+        "name": "INWILD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3392",
+        "name": "INTRAVEL",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3393",
+        "name": "NTC TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3394",
+        "name": "Suriya TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3395",
+        "name": "Aaryaa TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3396",
+        "name": "Ultimate TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3397",
+        "name": "Sony LIV Sports 4 Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3398",
+        "name": "Sony LIV Sports 4 Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3399",
+        "name": "Sony LIV Sports 5",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3401",
+        "name": "Swastik Stories",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3402",
+        "name": "DocuBay",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3409",
+        "name": "Roja TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3417",
+        "name": "Roja Movies",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3418",
+        "name": "Sony MAX1",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3420",
+        "name": "SONY YAY Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3423",
+        "name": "SONY YAY Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3424",
+        "name": "SONY YAY Bengali",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3425",
+        "name": "Discovery Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3427",
+        "name": "Sansad TV 1 HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3428",
+        "name": "Discovery HD Bengali",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3429",
+        "name": "Discovery Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3430",
+        "name": "Discovery Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3431",
+        "name": "Discovery HD Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3432",
+        "name": "Discovery HD Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3433",
+        "name": "Discovery Kids Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3434",
+        "name": "Investigation Discovery HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3435",
+        "name": "Investigation Discovery HD English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3436",
+        "name": "Cartoon Network HD+ Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3440",
+        "name": "TOI Global",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3444",
+        "name": "Discovery HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3445",
+        "name": "Discovery HD Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3446",
+        "name": "Discovery HD Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3447",
+        "name": "Discovery Kids Telugu",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3448",
+        "name": "Discovery Kids Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3450",
+        "name": "Animal Planet Tamil",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3451",
+        "name": "Animal Planet HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3452",
+        "name": "Investigation Discovery English",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3453",
+        "name": "Discovery Science Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3454",
+        "name": "Cartoon Network Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3455",
+        "name": "Cartoon Network HD+ Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3456",
+        "name": "Cartoon Network HD+ Malayalam",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3457",
+        "name": "Cartoon Network HD+ Marathi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3458",
+        "name": "TLC HD Hindi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3459",
+        "name": "Swastik TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3463",
+        "name": "Times of Maharashtra",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3464",
+        "name": "Guarantee News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3467",
+        "name": "Green Gold TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3470",
+        "name": "GTC Punjabi",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3471",
+        "name": "Punjabi Shorts",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3473",
+        "name": "Jio Home",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3476",
+        "name": "Zee Bangla Sonar",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3478",
+        "name": "Stingray Classic Rock",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3479",
+        "name": "Stingray Greatest Hits",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3481",
+        "name": "Stingray Cozy Cafe",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3483",
+        "name": "Amar Ujala",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3490",
+        "name": "GTC News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3492",
+        "name": "Alright TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3493",
+        "name": "Shree Sanatan TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3497",
+        "name": "Village TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3498",
+        "name": "India Ahead",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3499",
+        "name": "World Chess",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3502",
+        "name": "Kadak",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3503",
+        "name": "Manas Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3507",
+        "name": "Sony YAY",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3508",
+        "name": "Valam TV Dayro",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3509",
+        "name": "SET HD STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3510",
+        "name": "Sony Sports Ten 1 HD STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3511",
+        "name": "Sony Sports Ten 2 HD STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3512",
+        "name": "Sony Sports Ten 3 Hindi HD STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3513",
+        "name": "Sony Sports Ten 4 Telugu STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3514",
+        "name": "Sony Sports Ten 4 Tamil STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3515",
+        "name": "Sony Sports Ten 5 HD STB",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3518",
+        "name": "Cine Jomjomat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3519",
+        "name": "Shree Salangpur Dham",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3524",
+        "name": "Journy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3528",
+        "name": "Sony Liv Sports 4 Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3530",
+        "name": "UIPM Pentathlon World Cup",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3531",
+        "name": "Tamil Times",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3533",
+        "name": "Dice Media",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3534",
+        "name": "FilterCopy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3535",
+        "name": "Mr. Bean",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3536",
+        "name": "Anand Wari TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3537",
+        "name": "Duck TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3538",
+        "name": "R Plus Gold",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3540",
+        "name": "TV5 Voyage",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3541",
+        "name": "TV5 Info",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3542",
+        "name": "TV5 Chefs",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3543",
+        "name": "Eros Universe Bollywood Cinema",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3544",
+        "name": "Eros Universe Entertainment",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3546",
+        "name": "FIA TCR World Tour",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3548",
+        "name": "NKR TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3550",
+        "name": "Nijam TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3553",
+        "name": "Padel Time TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3554",
+        "name": "Vedant Ras",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3555",
+        "name": "Knock TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3558",
+        "name": "ETV News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3559",
+        "name": "ETV Beats",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3560",
+        "name": "ETV Josh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3561",
+        "name": "ETV Comedy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3562",
+        "name": "Akhon Kolkata Plus",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3563",
+        "name": "Pure Pink",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3564",
+        "name": "Rashtram",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3565",
+        "name": "Globeon Television",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3566",
+        "name": "Knock Bhakti",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3567",
+        "name": "Big TV 24x7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3568",
+        "name": "Onkar News",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3570",
+        "name": "ANN Entertainment",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3571",
+        "name": "Panjab TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3572",
+        "name": "Focus Plus TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3578",
+        "name": "Disney Channel HD",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3579",
+        "name": "Sampoorna News 24X7",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3584",
+        "name": "News Capital Market",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3585",
+        "name": "Sony Sports Ten 4 Kannada",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3587",
+        "name": "JOJO TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3588",
+        "name": "FAST TEST",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3589",
+        "name": "Divya Bhajan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3591",
+        "name": "Pitaara Comedy",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3592",
+        "name": "Vietnam Today",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3594",
+        "name": "TeluguOne",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3595",
+        "name": "Khabhar Bharat 360",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3601",
+        "name": "Icarus Sports",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3602",
+        "name": "Sonar bangla",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3603",
+        "name": "Namma TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3604",
+        "name": "ID Times",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3605",
+        "name": "ID TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3607",
+        "name": "News Leader",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3608",
+        "name": "Tv7 Bharat",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3609",
+        "name": "Tv7 National",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3610",
+        "name": "Dhool TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3611",
+        "name": "Hello Meghalaya",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3617",
+        "name": "Jallosh",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3618",
+        "name": "NDTV MPCG",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3619",
+        "name": "NDTV Rajasthan",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3622",
+        "name": "Sony Vizha",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3623",
+        "name": "Mantra TV",
+        "provider": "JioTV"
+    },
+    {
+        "id": "3625",
+        "name": "R Business",
+        "provider": "JioTV"
+    }
+]
